@@ -1,0 +1,64 @@
+{
+    "branches": [
+        {
+            "name": "Information Technology",
+            "icon": "desktop",
+            "color": "#FF9800",
+            "gradientColors": [
+                "#FF9800",
+                "#FFB74D"
+            ],
+            "description": "Software development, networking, and data management",
+            "semesters": [
+                {
+                    "id": 1,
+                    "name": "Semester 1",
+                    "subjectsCount": 10,
+                    "credits": 20,
+                    "subjects": [
+                        {
+                            "name": "Engineering Physics",
+                            "course_code": 100110,
+                            "credits": 3,
+                            "type": "Core Subject",
+                            "syllabus": {
+                                "courseObjectives": [
+                                    "Understand the fundamental concepts of Mathematics I",
+                                    "Learn to apply theoretical knowledge to practical problems",
+                                    "Develop critical thinking and problem-solving skills"
+                                ],
+                                "learningOutcomes": [
+                                    "Explain the key principles of Mathematics I",
+                                    "Solve complex problems using appropriate methods",
+                                    "Analyze and interpret data effectively"
+                                ],
+                                "courseContent": "# Course Content\n\n## Unit 1: Frame of Reference\n- Non-Inertial frame of reference, rotating coordinate system, centripetal and Coriolis acceleration and its application in weather system (2 hrs)\n\n## Unit 1: Oscillations\n- Harmonic Oscillator, Damped Harmonic motion – overdamped, critically Damped and lightly damped oscillators, Force Oscillators and Resonance (3 hrs)\n\n## Unit 2: Optics\n- Huygens’s Principle, Superposition of Waves and interference of Light by wave front splitting and amplitude-splitting; Young’s double slit experiment, Michelson interferometer, Fraunhofer diffraction from single slit and circular aperture, Diffraction Grating and their resolving power (4 hrs)\n\n## Unit 2: LASER\n- Einstein’s theory of matter-radiations interaction, Einstein’s Coefficients (A and B), Amplification by population inversion, Different types of lasers – Gas Laser, Helium-Neon Laser, Solid State Laser (Ruby, Neodymium), Semiconductor Laser (4 hrs)\n\n## Unit 3: Quantum Mechanics\n- Compton Effect, Photoelectric Effect, Wave Particle duality, de Broglie’s hypothesis, Heisenberg’s Uncertainty Principle, Wave function and wave packets, phase and group velocities, Schrodinger’s Wave Equation, Normalization, Expectation values, Eigenvalues and Eigenfunction\n\n## Unit 3: Applications in One Dimension\n- Application of Schrodinger Wave Equation for particle in one dimensional box – its wavefunction and eigenvalue of energy and momentum (2 hrs)\n\n## Unit 4: Vector Calculus\n- Gradient, Divergence and Curl, Line, Surface and Volume integrals, Gauss’s Divergence theorem and Stokes’ theorem in Cartesian Coordinate (5 hrs)\n\n## Unit 4: Electrostatics\n- Gauss’s Law and its applications, Divergence and Curl of Electrostatic fields, Electrostatic Potential, Boundary Conditions, Poisson’s and Laplace’s equations, Dielectrics, Polarization, Bound Charges, Electric displacement, Boundary Conditions in dielectrics (4 hrs)\n\n## Unit 5: Magnetostatics\n- Lorentz force, Biot-Savart and Ampere’s circuital laws and their applications, Divergence and Curl of Magneto static fields, Magnetic vector potential, Force and torque on a magnetic dipole, Magnetic Materials, Magnetization, Bound currents, Boundary conditions (4 hrs)\n\n## Unit 5: Electrodynamics and Electromagnetic Waves\n- Ohm’s law, Motional EMF, Faraday’s Law, Lenz’s law, Self and mutual inductance, Energy stored in magnetic field, Maxwell’s equations in vacuum and nonconducting medium, Continuity Equation, Poynting Theorem, Wave Equations: plain electromagnetic wave in vacuum and their transverse nature and Polarization (4 hrs)\n\n## Unit 6: Introduction to Solids and Semi-Conductors\n- Free electron theory of metal, fermi level, Bloch’s theorem for particle in a periodic Potential, Kroning-Penney model and origin of energy band (3 hrs)\n\n## Unit 6: Electronic Materials\n- Metals, semiconductors and insulators, intrinsic and extrinsic semiconductors, Carrier transport, diffusion and drift, P-N junction (3 hrs)",
+                                "referenceBooks": [
+                                    "Quantum Physics of Atoms, Molecules, Solids, Nuclei and Particles, R. Eisberg R. Resnick, Wiley India Pvt. Ltd ISBN 978-81-265-0818-1",
+                                    "Theory of Vibration with Application, W.T. Thomson M. D. Dahleh, Pearson India ISBN 978-81-317-0482-0",
+                                    "Introduction to Electrodynamics, D.J. Griffiths, Pearson India, ISBN 978-93-325-5044-5",
+                                    "Electromagnetism, I.S. Grant, W. R. Phillips, Wiley India Pvt. Ltd ISBN 978-04-719-2712-9",
+                                    "The Feynman Lectures on Physics, R.P. Feynman R. B. Leighton, Pearson India ISBN 978-00-710-7458-2",
+                                    "Optics, Ajay Ghatak, McGraw Hill ISBN 978-93-901-1359-0",
+                                    "Physics of Vibration and Waves, H. J. Pain, Wiley India Pvt. Ltd, ISBN 978-04-700-1296-3",
+                                    "Concept of Modern Physics, Arthur Beiser, McGraw Hill ISBN 978-93-513-4185-7",
+                                    "Introduction to Solid State Physics, C. Kittle, Wiley India Pvt. Ltd, ISBN 978-81-265-7843-6"
+                                ],
+                                "assessmentMethods": [
+                                    "Mid-term examination: 30%",
+                                    "Final examination: 50%",
+                                    "Assignments and projects: 20%"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "metadata": {
+        "academicYear": "2024-2025",
+        "appName": "Engineering Hub",
+        "updatedAt": "2025-02-26"
+    }
+}
