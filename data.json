@@ -20,7 +20,7 @@
                             "name": "Discrete Mathematics",
                             "course_code": 106301,
                             "credits": 4,
-                            "type": "Core Subject",
+                            "type": "Theory",
                             "syllabus": {
                                 "courseObjectives": [
                                     "Use mathematically correct terminology and notation.",
@@ -49,7 +49,7 @@
                             "name": "Data Structure and Algorithms",
                             "course_code": 100304,
                             "credits": 3,
-                            "type": "Core Subject",
+                            "type": "Theory",
                             "syllabus": {
                                 "courseObjectives": [
                                     "To impart the basic concepts of data structures and algorithms.",
@@ -79,7 +79,7 @@
                             "name": "Digital Electronics",
                             "course_code": 100305,
                             "credits": 3,
-                            "type": "Core Subject",
+                            "type": "Theory",
                             "syllabus": {
                                 "courseObjectives": [
                                     "Understand working of logic families and logic gates.",
@@ -103,7 +103,7 @@
                             "name": "Object Oriented Programming using C++",
                             "course_code": null,
                             "credits": 3,
-                            "type": "Core Subject",
+                            "type": "Theory",
                             "syllabus": {
                                 "courseObjectives": [
                                     "To impart the basic concepts of Object Oriented Programming.",
@@ -140,7 +140,7 @@
                             "name": "Mathematics -III \n(Differential Calculus)",
                             "course_code": 100311,
                             "credits": 3,
-                            "type": "Core Subject",
+                            "type": "Theory",
                             "syllabus": {
                                 "courseObjectives": [],
                                 "learningOutcomes": [],
@@ -153,7 +153,7 @@
                             "name": "TECHNICAL WRITING",
                             "course_code": 100314,
                             "credits": 3,
-                            "type": "Core Subject",
+                            "type": "Theory",
                             "syllabus": {
                                 "courseObjectives": [
                                     "To understand the variety of structure of technical documents",
@@ -186,9 +186,9 @@
                     "subjects": [
                         {
                             "name": "Formal Language and Automata Theory",
-                            "course_code": null,
-                            "credits": null,
-                            "type": "Core Subject",
+                            "course_code": 100406,
+                            "credits": 4,
+                            "type": "Theory",
                             "syllabus": {
                                 "courseObjectives": [],
                                 "learningOutcomes": [],
@@ -201,7 +201,7 @@
                             "name": "Computer Organization and Architecture",
                             "course_code": null,
                             "credits": null,
-                            "type": "Core Subject",
+                            "type": "Theory",
                             "syllabus": {
                                 "courseObjectives": [],
                                 "learningOutcomes": [],
@@ -214,7 +214,7 @@
                             "name": "Machine Learning",
                             "course_code": null,
                             "credits": null,
-                            "type": "Core Subject",
+                            "type": "Theory",
                             "syllabus": {
                                 "courseObjectives": [],
                                 "learningOutcomes": [],
@@ -227,7 +227,7 @@
                             "name": "Database Management System",
                             "course_code": null,
                             "credits": null,
-                            "type": "Core Subject",
+                            "type": "Theory",
                             "syllabus": {
                                 "courseObjectives": [],
                                 "learningOutcomes": [],
