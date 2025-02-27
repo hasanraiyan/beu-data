@@ -235,32 +235,6 @@
                                 "referenceBooks": [],
                                 "assessmentMethods": []
                             }
-                        },
-                         {
-                            "name": "Subject 5",
-                            "course_code": null,
-                            "credits": null,
-                            "type": "Core Subject",
-                            "syllabus": {
-                                "courseObjectives": [],
-                                "learningOutcomes": [],
-                                "courseContent": null,
-                                "referenceBooks": [],
-                                "assessmentMethods": []
-                            }
-                        },
-                         {
-                            "name": "Subject 6",
-                            "course_code": null,
-                            "credits": null,
-                            "type": "Core Subject",
-                            "syllabus": {
-                                "courseObjectives": [],
-                                "learningOutcomes": [],
-                                "courseContent": null,
-                                "referenceBooks": [],
-                                "assessmentMethods": []
-                            }
                         }
                     ]
                 }
