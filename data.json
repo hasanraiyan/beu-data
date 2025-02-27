@@ -199,8 +199,8 @@
                         },
                         {
                             "name": "Computer Organization and Architecture",
-                            "course_code": null,
-                            "credits": null,
+                            "course_code": 106401,
+                            "credits": 3,
                             "type": "Theory",
                             "syllabus": {
                                 "courseObjectives": [],
@@ -212,8 +212,8 @@
                         },
                         {
                             "name": "Machine Learning",
-                            "course_code": null,
-                            "credits": null,
+                            "course_code": 106403,
+                            "credits": 3,
                             "type": "Theory",
                             "syllabus": {
                                 "courseObjectives": [],
@@ -225,8 +225,8 @@
                         },
                         {
                             "name": "Database Management System",
-                            "course_code": null,
-                            "credits": null,
+                            "course_code": 106402,
+                            "credits": 3,
                             "type": "Theory",
                             "syllabus": {
                                 "courseObjectives": [],
