@@ -184,7 +184,19 @@
                     "subjectsCount": 4,
                     "credits": 24,
                     "subjects": [
-                 
+                        {
+                            "name": "Formal Language and Automata Theory",
+                            "course_code": 100406,
+                            "credits": 4,
+                            "type": "Theory",
+                            "syllabus": {
+                                "courseObjectives": [],
+                                "learningOutcomes": [],
+                                "courseContent": null,
+                                "referenceBooks": [],
+                                "assessmentMethods": []
+                            }
+                        },
                         {
                             "name": "Computer Organization and Architecture",
                             "course_code": 106401,
