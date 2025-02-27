@@ -182,7 +182,7 @@
                     "id": 4,
                     "name": "Semester 4",
                     "subjectsCount": 4,
-                    "credits": 39,
+                    "credits": 24,
                     "subjects": [
                         {
                             "name": "Formal Language and Automata Theory",
