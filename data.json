@@ -11,44 +11,169 @@
             "description": "Software development, networking, and data management",
             "semesters": [
                 {
-                    "id": 1,
-                    "name": "Semester 1",
-                    "subjectsCount": 10,
-                    "credits": 20,
+                    "id": 3,
+                    "name": "Semester 3",
+                    "subjectsCount": 6,
+                    "credits": 39,
                     "subjects": [
                         {
-                            "name": "Engineering Physics",
-                            "course_code": 100110,
+                            "name": "Discrete Mathematics",
+                            "course_code": 106301,
+                            "credits": 4,
+                            "type": "Core Subject",
+                            "syllabus": {
+                                "courseObjectives": [
+                                    "Use mathematically correct terminology and notation.",
+                                    "Construct correct direct and indirect proofs.",
+                                    "Use division into cases in a proof.",
+                                    "Use counterexamples.",
+                                    "Apply logical reasoning to solve a variety of problems."
+                                ],
+                                "learningOutcomes": [
+                                    "For a given logic sentence express it in terms of predicates, quantifiers, and logical connectives.",
+                                    "For a given problem, derive the solution using deductive logic and prove the solution based on logical inference.",
+                                    "For a given mathematical problem, classify its algebraic structure.",
+                                    "Evaluate Boolean functions and simplify expressions using the properties of Boolean algebra",
+                                    "Develop the given problem as graph networks and solve with techniques of graph theory."
+                                ],
+                                "courseContent": "## Module 1: Lecture 6\n- Sets, Relation and Function: Operations and Laws of Sets, Cartesian Products, Binary Relation, Partial Ordering Relation, Equivalence Relation, Image of a Set, Sum and Product of Functions, Bijective functions, Inverse and Composite Function, Size of a Set, Finite and infinite Sets, Countable and uncountable Sets, Cantor’s diagonal argument and The Power Set theorem, Schroeder-Bernstein theorem.\n\n## Module 2: Lecture 8\n- Principles of Mathematical Induction: The Well-Ordering Principle, Recursive definition, The Division algorithm: Prime Numbers, The Greatest Common Divisor: Euclidean Algorithm, The Fundamental Theorem of Arithmetic.\n- Basic counting techniques-inclusion and exclusion, pigeon-hole principle, permutation and combination.\n\n## Module 3: Lecture 8\n- Propositional Logic: Syntax, Semantics, Validity and Satisfiability, Basic Connectives and Truth Tables, Logical Equivalence: The Laws of Logic, Logical Implication, Rules of Inference, The use of Quantifiers. Proof Techniques: Some Terminology, Proof Methods and Strategies, Forward Proof, Proof by Contradiction, Proof by Contraposition, Proof of Necessity and Sufficiency.\n\n## Module 4: Lecture 8\n- Algebraic Structures and Morphism: Algebraic Structures with one Binary Operation, Semi Groups, Monoids, Groups, Congruence Relation and Quotient Structures, Free and Cyclic Monoids and Groups, Permutation Groups, Substructures, Normal Subgroups, Algebraic Structures with two Binary Operation, Rings, Integral Domain and Fields. Boolean Algebra and Boolean Ring, Identities of Boolean Algebra, Duality, Representation of Boolean Function, Disjunctive and Conjunctive Normal Form\n\n## Module 5: Lecture 10\n- Graphs and Trees: Graphs and their properties, Degree, Connectivity, Path, Cycle, Sub Graph, Isomorphism, Eulerian and Hamiltonian Walks, Graph Coloring, Coloring maps, Planar Graphs, Coloring Vertices, Coloring Edges, List Coloring, Perfect Graph, definition properties and Example, rooted trees, trees and sorting, weighted trees and prefix codes, Bi-connected component and Articulation Points, Shortest distances.",
+                                "referenceBooks": [
+                                    "Kenneth H. Rosen, Discrete Mathematics and its Applications, Tata McGraw –Hill",
+                                    "Susanna S. Epp, Discrete Mathematics with Applications,4th edition, Wadsworth Publishing Co.Inc.",
+                                    "C L Liu and D P Mohapatra, Elements of Discrete Mathematics A Computer Oriented Approach, 3rd Edition by, Tata McGraw –Hill."
+                                ],
+                                "assessmentMethods": []
+                            }
+                        },
+                        {
+                            "name": "Data Structure and Algorithms",
+                            "course_code": 100304,
                             "credits": 3,
                             "type": "Core Subject",
                             "syllabus": {
                                 "courseObjectives": [
-                                    "Understand the fundamental concepts of Mathematics I",
-                                    "Learn to apply theoretical knowledge to practical problems",
-                                    "Develop critical thinking and problem-solving skills"
+                                    "To impart the basic concepts of data structures and algorithms.",
+                                    "To understand concepts about searching and sorting techniques",
+                                    "To understand basic concepts about stacks, queues, lists trees and graphs.",
+                                    "To enable them to write algorithms for solving problems with the help of fundamental data structures"
                                 ],
                                 "learningOutcomes": [
-                                    "Explain the key principles of Mathematics I",
-                                    "Solve complex problems using appropriate methods",
-                                    "Analyze and interpret data effectively"
+                                    "For a given algorithm student will able to analyze the algorithms to determine the time and computation complexity and justify the correctness.",
+                                    "For a given Search problem (Linear Search and Binary Search) student will able to implement it.",
+                                    "For a given problem of Stacks, Queues and linked list student will able to implement it and analyze the same to determine the time and computation complexity.",
+                                    "Student will able to write an algorithm Selection Sort, Bubble Sort, Insertion Sort, Quick Sort, Merge Sort, Heap Sort and compare their performance in term of Space and Time complexity.",
+                                    "Student will able to implement Graph search and traversal algorithms and determine the time and computation complexity."
                                 ],
-                                "courseContent": "# Course Content\n\n## Unit 1: Frame of Reference\n- Non-Inertial frame of reference, rotating coordinate system, centripetal and Coriolis acceleration and its application in weather system (2 hrs)\n\n## Unit 1: Oscillations\n- Harmonic Oscillator, Damped Harmonic motion – overdamped, critically Damped and lightly damped oscillators, Force Oscillators and Resonance (3 hrs)\n\n## Unit 2: Optics\n- Huygens’s Principle, Superposition of Waves and interference of Light by wave front splitting and amplitude-splitting; Young’s double slit experiment, Michelson interferometer, Fraunhofer diffraction from single slit and circular aperture, Diffraction Grating and their resolving power (4 hrs)\n\n## Unit 2: LASER\n- Einstein’s theory of matter-radiations interaction, Einstein’s Coefficients (A and B), Amplification by population inversion, Different types of lasers – Gas Laser, Helium-Neon Laser, Solid State Laser (Ruby, Neodymium), Semiconductor Laser (4 hrs)\n\n## Unit 3: Quantum Mechanics\n- Compton Effect, Photoelectric Effect, Wave Particle duality, de Broglie’s hypothesis, Heisenberg’s Uncertainty Principle, Wave function and wave packets, phase and group velocities, Schrodinger’s Wave Equation, Normalization, Expectation values, Eigenvalues and Eigenfunction\n\n## Unit 3: Applications in One Dimension\n- Application of Schrodinger Wave Equation for particle in one dimensional box – its wavefunction and eigenvalue of energy and momentum (2 hrs)\n\n## Unit 4: Vector Calculus\n- Gradient, Divergence and Curl, Line, Surface and Volume integrals, Gauss’s Divergence theorem and Stokes’ theorem in Cartesian Coordinate (5 hrs)\n\n## Unit 4: Electrostatics\n- Gauss’s Law and its applications, Divergence and Curl of Electrostatic fields, Electrostatic Potential, Boundary Conditions, Poisson’s and Laplace’s equations, Dielectrics, Polarization, Bound Charges, Electric displacement, Boundary Conditions in dielectrics (4 hrs)\n\n## Unit 5: Magnetostatics\n- Lorentz force, Biot-Savart and Ampere’s circuital laws and their applications, Divergence and Curl of Magneto static fields, Magnetic vector potential, Force and torque on a magnetic dipole, Magnetic Materials, Magnetization, Bound currents, Boundary conditions (4 hrs)\n\n## Unit 5: Electrodynamics and Electromagnetic Waves\n- Ohm’s law, Motional EMF, Faraday’s Law, Lenz’s law, Self and mutual inductance, Energy stored in magnetic field, Maxwell’s equations in vacuum and nonconducting medium, Continuity Equation, Poynting Theorem, Wave Equations: plain electromagnetic wave in vacuum and their transverse nature and Polarization (4 hrs)\n\n## Unit 6: Introduction to Solids and Semi-Conductors\n- Free electron theory of metal, fermi level, Bloch’s theorem for particle in a periodic Potential, Kroning-Penney model and origin of energy band (3 hrs)\n\n## Unit 6: Electronic Materials\n- Metals, semiconductors and insulators, intrinsic and extrinsic semiconductors, Carrier transport, diffusion and drift, P-N junction (3 hrs)",
+                                "courseContent": "## Module 1: Lecture 4\n- Introduction: Basic Terminologies: Elementary Data Organizations, Data Structure Operations: insertion, deletion, traversal etc.; Analysis of an Algorithm, Asymptotic Notations, Time-Space trade off.\n\n## Module 2: Lecture 10\n- Stacks and Queues: ADT Stack and its operations: Algorithms and their complexity analysis, Applications of Stacks: Expression Conversion and evaluation – corresponding algorithms and complexity analysis. ADT queue, Types of Queue: Simple Queue, Circular Queue, Priority Queue; Operations on each Type of Queues: Algorithms and their analysis.\n\n## Module 3: Lecture 6\n- Linked Lists: Singly linked lists: Representation in memory, Algorithms of several operations: Traversing, Searching, Insertion into, Deletion from linked list; Linked representation of Stack and Queue, Header nodes, doubly linked list: operations on it and algorithmic analysis; Circular Linked Lists: all operations their algorithms and the complexity analysis.\n\n## Module 4: Lecture 12\n- Searching, Sorting and Hashing: Linear Search and Binary Search Techniques and their complexityanalysis Objective and properties of different sorting algorithms: Selection Sort, Bubble Sort, Insertion Sort, Quick Sort, Merge Sort, Heap Sort; Performance and Comparison among all the methods, Hashing.\n\n## Module 5: Lecture 8\n- Trees: Basic Tree Terminologies, Different types of Trees: Binary Tree, Threaded Binary Tree, Binary Search Tree, AVLTree; Tree operations on each of the trees and their algorithms with complexity analysis. Applications of Binary Trees. B Tree, B+ Tree: definitions, algorithms andanalysis. Graph: Basic Terminologies and Representations, Graph search and traversal algorithms and complexity analysis.",
                                 "referenceBooks": [
-                                    "Quantum Physics of Atoms, Molecules, Solids, Nuclei and Particles, R. Eisberg R. Resnick, Wiley India Pvt. Ltd ISBN 978-81-265-0818-1",
-                                    "Theory of Vibration with Application, W.T. Thomson M. D. Dahleh, Pearson India ISBN 978-81-317-0482-0",
-                                    "Introduction to Electrodynamics, D.J. Griffiths, Pearson India, ISBN 978-93-325-5044-5",
-                                    "Electromagnetism, I.S. Grant, W. R. Phillips, Wiley India Pvt. Ltd ISBN 978-04-719-2712-9",
-                                    "The Feynman Lectures on Physics, R.P. Feynman R. B. Leighton, Pearson India ISBN 978-00-710-7458-2",
-                                    "Optics, Ajay Ghatak, McGraw Hill ISBN 978-93-901-1359-0",
-                                    "Physics of Vibration and Waves, H. J. Pain, Wiley India Pvt. Ltd, ISBN 978-04-700-1296-3",
-                                    "Concept of Modern Physics, Arthur Beiser, McGraw Hill ISBN 978-93-513-4185-7",
-                                    "Introduction to Solid State Physics, C. Kittle, Wiley India Pvt. Ltd, ISBN 978-81-265-7843-6"
+                                    "\"Fundamentals of Data Structures”, Illustrated Edition by Ellis Horowitz, SartajSahni, Computer SciencePress.",
+                                    "\"Data Structures and Program Design In C\", 2/E by Robert L. Kruse , Bruce P. Leung.",
+                                    "\"Data Structures\" by Schaum's Outlines.",
+                                    "\"Algorithms, Data Structures, and Problem Solving with C++\", Illustrated Edition by Mark Allen Weiss, Addison-Wesley Publishing Company.",
+                                    "\"How to Solve it by Computer\", 2nd Impression by R.G. Dromey, Pearson Education."
                                 ],
-                                "assessmentMethods": [
-                                    "Mid-term examination: 30%",
-                                    "Final examination: 50%",
-                                    "Assignments and projects: 20%"
-                                ]
+                                "assessmentMethods": []
+                            }
+                        },
+                        {
+                            "name": "Digital Electronics",
+                            "course_code": 100305,
+                            "credits": 3,
+                            "type": "Core Subject",
+                            "syllabus": {
+                                "courseObjectives": [
+                                    "Understand working of logic families and logic gates.",
+                                    "Design and implement Combinational and Sequential logic circuits.",
+                                    "Understand the process of Analog to Digital conversion and Digital to Analog conversion.",
+                                    "Be able to use Programmable logic devices to implement the given logical problem."
+                                ],
+                                "learningOutcomes": [
+                                    "At the end of this course, students will demonstrate the ability to:"
+                                ],
+                                "courseContent": "## Module 1: Lecture 7 hrs.\n- Fundamentals of Digital Systems and logic families: Digital signals, digital circuits, AND, OR, NOT, NAND, NOR and Exclusive-OR operations, Boolean algebra, examples of IC gates, number systems-binary, signed binary, octal hexadecimal number, binary arithmetic, one’s and two’s complements arithmetic, codes, error detecting and correcting codes, characteristics of digital ICs, digital logic families, TTL, Schottky TTL and CMOS logic, interfacing CMOS and TTL, Tri - state logic.\n\n## Module 2: Lecture: 7 hrs.\n- Combinational Digital Circuits: Standard representation for logic functions K-map representation, simplification of logic functions using K-map, minimization of logical functions. Don’t care conditions, Multiplexer, DeMultiplexer/Decoders, Adders, Subtractors, BCD arithmetic, carry look ahead adder, serial adder, ALU, elementary ALU design, popular MSI chips, digital comparator, parity checker/generator, code converters, priority encoders, decoders/drivers for display devices, Q-M method of function realization.\n\n## Module 3: Lecture: 7 hrs.\n- Sequential circuits and systems: A 1-bit memory, the circuit properties of Bistable latch, the clocked SR flip flop, J- K, T and D types flip flops, application of flip flops, shift registers, applications of shift registers, serial to parallel converter, parallel to serial converter, ring counter, sequence generator, ripple (Asynchronous) counters, synchronous counters, counters design using flip flops, special counter ICs, asynchronous sequential counters, applications of counters.\n\n## Module 4: Lecture: 7 hrs.\n- A/D and D/A Converters: Digital to analog converters: weighted resistor/converter, R-2RLadder D/A converter, specifications for D/A converters, examples of D/A converter ICs, sample and hold circuit, analog to digital converters: quantization and encoding, parallel comparator A/D converter, successive approximation A/D converter, counting A/D converter, dual slope A/D converter, A/D converter using Voltage to frequency and voltage to time conversion, specifications of A/D converters, example of A/D converter ICs.\n\n## Module 5: Lecture 7 hrs.\n- Semiconductor memories and Programmable logic devices: Memory organization and operation, expanding memory size, classification and characteristics of memories, sequential memory, read only memory (ROM), read and write memory(RAM), content addressable memory (CAM), charge de coupled device memory (CCD), commonly used memory chips, ROM as a PLD, Programmable logic array (PLA), Programmable array logic (PAL), complex Programmable logic devices (CPLDs), Field Programmable Gate Array (FPGA).",
+                                "referenceBooks": [
+                                    "R. P. Jain, \"Modern Digital Electronics\", McGraw Hill Education, 2009.",
+                                    "M. M. Mano, \"Digital logic and Computer design\", Pearson Education India, 2016.",
+                                    "A. Kumar, \"Fundamentals of Digital Circuits\", Prentice Hall India, 2016."
+                                ],
+                                "assessmentMethods": []
+                            }
+                        },
+                        {
+                            "name": "Object Oriented Programming using C++",
+                            "course_code": null,
+                            "credits": 3,
+                            "type": "Core Subject",
+                            "syllabus": {
+                                "courseObjectives": [
+                                    "To impart the basic concepts of Object Oriented Programming.",
+                                    "To understand concepts about Classes and Data Abstraction",
+                                    "To understand basic concepts about Inheritance.",
+                                    "To enable them to write algorithms for solving problems using object oriented approach."
+                                ],
+                                "learningOutcomes": [
+                                    "An understanding of the concepts of inheritance and polymorphism.",
+                                    "An ability to overload operators in C++",
+                                    "An understanding of the difference between function overloading and function overriding",
+                                    "An ability to incorporate exception handling in object-oriented programs",
+                                    "An ability to use template classes.",
+                                    "An ability to write object-oriented programs of moderate complexity in C++"
+                                ],
+                                "courseContent": "## Module 1: Lecture: 3\nIntroduction to C++ : Object Oriented Technology, Advantages of OOP, Input- output in C++, Tokens, Keywords, Identifiers, Data Types C++, Derives data types. The void data type, Type Modifiers, Typecasting, Constant, Operator, Precedence of Operators, Strings.\n\n## Module 2: Lecture: 6\nControl Structures and Functions: Decision making statements like if-else, Nested if-else, goto, break, continue, switch case, Loop statement like for loop, nested for loop, while loop, do-while loop. Parts of Function, User- defined Functions, Value- Returning Functions, void Functions, Value Parameters, Function overloading, Virtual Functions.\n\n## Module 3: Lecture: 15\nClasses and Data Abstraction : Structure in C++, Class, Build- in Operations on Classes, Assignment Operator and Classes, Class Scope, Reference parameters and Class Objects (Variables), Member functions, Accessor and Mutator Functions, Constructors, default Constructor, Destructors.\n\n## Module 4: Lecture: 10\nOverloading, Templates and Inheritance: Operator Overloading, Function Overloading, Function Templates, Class Templates. Single and Multiple Inheritance, virtual Base class, Abstract Class, Pointer and Inheritance, Overloading Member Function.\n\n## Module 5: Lecture: 11\nPointers, Arrays and Exception Handling: Void Pointers, Pointer to Class, Pointer to Object, Void Pointer, Arrays. The keywords try, throw and catch. Creating own Exception Classes, Exception Handling Techniques (Terminate the Program, Fix the Error and Continue, Log the Error and Continue), Stack Unwinding.",
+                                "referenceBooks": [
+                                    "Thinking in C++, Volume 1 & 2 by Bruce Eckel, Chuck Allison, Pearson Education",
+                                    "Mastering C++, 1/e by Venugopal, Tata McGraw Hill.",
+                                    "Object Oriented Programming with C++, 3/e by E. Balaguruswamy, Tata McGraw Hill.",
+                                    "Starting Out with Object Oriented Programming in C++, by Tony Gaddis, Wiley India.",
+                                    "The C++ Programming language 3/e by Bjarne Stroustrup, Pearson Education.",
+                                    "C++, How to Programme, 4e, by Deitel, Pearson Education.",
+                                    "Big C++ by Cay Horstmann, Wiley India.",
+                                    "C++ Primer, 3e by Stanley B. Lippmann, JoseeLajoie, Pearson Education.",
+                                    "C++ and Object Oriented Programming Paradigm, 2e by Debasish Jana, PHI.",
+                                    "Programming with C++, 2/e by Ravichandran, Tata McGraw Hill.",
+                                    "C++ Programming Black Book by Steven Holzner, Dreamtech Press."
+                                ],
+                                "assessmentMethods": []
+                            }
+                        },
+                        {
+                            "name": "Mathematics -III \n(Differential Calculus)",
+                            "course_code": 100311,
+                            "credits": 3,
+                            "type": "Core Subject",
+                            "syllabus": {
+                                "courseObjectives": [],
+                                "learningOutcomes": [],
+                                "courseContent": "## Module 1 Lecture: 6 hrs.\n- Successive Differentiation, Leibnitz’s Theorem. Limit, Continuity and Differentiability of function for one variable.\n\n## Module 2 Lecture: 8 hrs.\n- Limit, Continuity and Differentiability of function for several variables. Partial Derivatives, Euler’s Theorem for Homogeneous functions, Total derivatives, Change of Variables. Maxima and Minima of Several Variables. Methods of Lagrange Multipliers. Taylor’s and Maclaurin’s Theorem with remainders of several variables.\n\n## Module 3 Lecture: 8 hrs.\n- Vector Calculus: Gradient, Divergence and Curl of a Vector and their Physical Interpretations, Vector Identities. Directional Derivatives. Line, Surface and Volume integrals, Application of Green’s, Stokes and Gauss Divergence Theorem (Without Proof).\n\n## Module 4 Lecture: 6 hrs.\n- First Order Ordinary Differential Equations: Exact, Linear and Bernoulli’s Equations, Euler’s Equations, Equations not of First Degree. Equations Solvable for P, Equations Solvable for Y, Equations Solvable for X and Clairaut’s Type.\n\n## Module 5 Lecture: 8 hrs.\n- Ordinary Differential Equations of Higher Orders: Second Order Linear Differential Equations with Variable Coefficients, Method of Variation of Parameters, Cauchy-Euler Equation; Power Series Solutions; Legendre Polynomials, Bessel Functions of the First Kind and their properties.\n\n## Module 6 Lecture: 6 hrs.\n- Partial Differential Equations – First Order: First Order Partial Differential Equations, Solutions of First Order Linear and Non-Linear PDEs.",
+                                "referenceBooks": [],
+                                "assessmentMethods": []
+                            }
+                        },
+                        {
+                            "name": "TECHNICAL WRITING",
+                            "course_code": 100314,
+                            "credits": 3,
+                            "type": "Core Subject",
+                            "syllabus": {
+                                "courseObjectives": [
+                                    "To understand the variety of structure of technical documents",
+                                    "To convey clearly, cogently and correctly, through written media, the technical aspects of a practice to audiences.",
+                                    "To recognize and use of the verbal and technical elements necessary for the successful practice of scientific and technical communication",
+                                    "To work collaboratively and individually to research, to analyze, and to write about, public debates regarding the conduct of science and technology"
+                                ],
+                                "learningOutcomes": [
+                                    "Student should able to demonstrate improved competence in Standard Written English, including grammar, sentence and paragraph structure, coherence and document design (including the use of the visual), and use this knowledge to revise texts.",
+                                    "Student should identify and practice the stages required to produce competent, professional writing through planning, drafting, revising, and editing.",
+                                    "It determine and implement the appropriate methods for each technical writing task.",
+                                    "Students learn to practice the ethical use of sources and the conventions of citation appropriate to each genre."
+                                ],
+                                "courseContent": "## Module 1 Lecture 10 hrs.\n- Introduction: Fundamentals of Technical Writing: Need for Clear and Concise Technical Writing, Attributes of Technical Writing, Types of Technical Writing, Benefits of Technical Communication, Technical, Managerial and General Readers, Expressing versus Impressing, Correct use of Noun, Pronoun, Verb, Adjective, Adverbs, Tense and Punctuation.\n\n## Module 2 Lecture 10 hrs.\n- Performing Technical Studies: Types of Technical Studies, General Methodology- Proposing a Project, Gathering Background Information, Designing Test Plans, Performing Experiments, Reporting Results, Writing Strategy: Analysis of Readers, Scope of Writing, Purpose and Objective. Document Options: Document Hierarchy, Report Types and Selection. Elements of Report Writing: Style and Appearance, Writing Presentation, Language Skills, Writing Style: Elements of Technical Communication Style, Recommended Style, Learn to Prepare Effective Illustrations\n\n## Module 3 Lecture 10 hrs.\n- Formal Reports: The Outline and Introduction (Outline, Title, Front Matter, Writing the Introduction), Writing the Body (Writing a Procedure, Describing Mechanism/Machines/Processes, Writing Test Results, Writing the Discussion Section), Closure (Conclusions, Recommendation, References, Abstract, Back Matter, Report Distribution, Saving and Storing Reports). Elements of an Informal Report, Investigation Reports, Service Activity Log, Lab. Reports and Proposals. Typical Memo Reports.\n\n## Module 4 Lecture 10 hrs.\n- Review and Editing: Types of Review and Edit, Review and Editing Methodology, Examples of Reviews. Oral Presentations: Types of Oral Presentations, Preparation, Visual Aids, Impediments to Technical Writing, Maintaining Writing Skills, Measuring Report Results.",
+                                "referenceBooks": [
+                                    "“Engineers’ Guide to Technical Writing”, Kenneth G. Budinski, ASM International.",
+                                    "“Handbook for Technical Writing”, James H. Shelton, NTC Contemporary Press",
+                                    "“The Technical Writer’s Handbook: Writing With Style and Clarity”, Matt Young, University Science Books"
+                                ],
+                                "assessmentMethods": []
                             }
                         }
                     ]
@@ -143,11 +268,119 @@
                     ]
                 }
             ]
-        }
+        },
+        {
+                  "name": "Computer Science & Engineering",
+                  "icon": "code",
+                  "color": "#2196F3",
+                  "gradientColors": [
+                      "#2196F3",
+                      "#64B5F6"
+                  ],
+                  "description": "Software development, algorithms, and computer systems",
+                  "semesters": [
+                      {
+                          "id": 3,
+                          "name": "Semester 3",
+                          "subjectsCount": 6,
+                          "credits": 24,
+                          "subjects": [
+                              {
+                                  "name": "Analog Electronic Circuits",
+                                  "course_code": 100302,
+                                  "credits": 3,
+                                  "type": "Core Subject",
+                                  "syllabus": {
+                                      "courseObjectives": [
+                                          "Understand diode circuits and their applications.",
+                                          "Analyze BJT and MOSFET circuits for amplification and switching.",
+                                          "Design and analyze operational amplifier-based circuits."
+                                      ],
+                                      "learningOutcomes": [
+                                          "Apply circuit analysis techniques to electronic circuits.",
+                                          "Evaluate amplifier performance parameters.",
+                                          "Implement analog circuit applications using operational amplifiers."
+                                      ],
+                                      "courseContent": "# Course Content\n\n## Unit 1: Diode Circuits\n- PN junction diode, rectifiers, clamping and clipping circuits (6 hrs)\n\n## Unit 2: BJT Circuits\n- Characteristics, small-signal models, biasing, amplifier configurations (8 hrs)\n\n## Unit 3: MOSFET Circuits\n- Structure, switching, amplifier models, gain analysis (6 hrs)\n\n## Unit 4: Operational Amplifiers\n- Differential amplifier, power amplifier, op-amp characteristics (4 hrs)\n\n## Unit 5: Op-Amp Applications\n- Inverting, non-inverting amplifiers, filters, oscillators (8 hrs)\n\n## Unit 6: Nonlinear Applications\n- Comparators, waveform generators, precision rectifiers (10 hrs)",
+                                      "referenceBooks": [
+                                          "Microelectronic Circuits – A. S. Sedra & K. C. Smith",
+                                          "Introduction to Operational Amplifier Theory – J. V. Wait",
+                                          "The Art of Electronics – P. Horowitz & W. Hill"
+                                      ],
+                                      "assessmentMethods": [
+                                          "Mid-term examination: 30%",
+                                          "Final examination: 50%",
+                                          "Assignments and projects: 20%"
+                                      ]
+                                  }
+                              },
+                              {
+                                  "name": "Data Structure & Algorithm",
+                                  "course_code": 100304,
+                                  "credits": 3,
+                                  "type": "Core Subject",
+                                  "syllabus": {
+                                      "courseObjectives": [
+                                          "Understand data structures and their implementations.",
+                                          "Analyze algorithm complexity and performance.",
+                                          "Apply sorting, searching, and graph algorithms."
+                                      ],
+                                      "learningOutcomes": [
+                                          "Implement data structures like stacks, queues, and linked lists.",
+                                          "Analyze and optimize algorithms for efficiency.",
+                                          "Solve problems using trees and graphs."
+                                      ],
+                                      "courseContent": "# Course Content\n\n## Unit 1: Introduction\n- Data structure operations, algorithm complexity (7 hrs)\n\n## Unit 2: Stacks and Queues\n- ADT operations, applications, types of queues (7 hrs)\n\n## Unit 3: Linked Lists\n- Single, doubly, and circular linked lists (7 hrs)\n\n## Unit 4: Sorting and Searching\n- Bubble, Quick, Merge, Heap Sort; Binary and Linear Search (7 hrs)\n\n## Unit 5: Trees\n- Binary Trees, AVL Trees, B-Trees, applications (7 hrs)\n\n## Unit 6: Graphs\n- Representation, traversal algorithms (7 hrs)",
+                                      "referenceBooks": [
+                                          "Data Structures and Algorithms in C++ – Mark Allen Weiss",
+                                          "Fundamentals of Data Structures – Ellis Horowitz",
+                                          "How to Solve it by Computer – R. G. Dromey"
+                                      ],
+                                      "assessmentMethods": [
+                                          "Mid-term examination: 30%",
+                                          "Final examination: 50%",
+                                          "Assignments and projects: 20%"
+                                      ]
+                                  }
+                              },
+                              {
+                                  "name": "Object Oriented Programming using C++",
+                                  "course_code": 100313,
+                                  "credits": 3,
+                                  "type": "Core Subject",
+                                  "syllabus": {
+                                      "courseObjectives": [
+                                          "Understand object-oriented programming concepts.",
+                                          "Implement classes, objects, inheritance, and polymorphism.",
+                                          "Develop applications using C++."
+                                      ],
+                                      "learningOutcomes": [
+                                          "Write C++ programs using OOP principles.",
+                                          "Apply function overloading and templates.",
+                                          "Implement exception handling and file handling in C++."
+                                      ],
+                                      "courseContent": "# Course Content\n\n## Unit 1: Introduction\n- OOP principles, data types, operators (7 hrs)\n\n## Unit 2: Control Structures and Functions\n- Decision making, loops, function overloading (8 hrs)\n\n## Unit 3: Classes and Data Abstraction\n- Constructors, destructors, member functions (8 hrs)\n\n## Unit 4: Inheritance and Templates\n- Operator overloading, function templates, multiple inheritance (5 hrs)\n\n## Unit 5: Pointers and Arrays\n- Pointers, array handling, file handling (7 hrs)\n\n## Unit 6: Exception Handling\n- Exception classes, handling techniques (7 hrs)",
+                                      "referenceBooks": [
+                                          "Thinking in C++ – Bruce Eckel",
+                                          "Object-Oriented Programming with C++ – E. Balaguruswamy",
+                                          "The C++ Programming Language – Bjarne Stroustrup"
+                                      ],
+                                      "assessmentMethods": [
+                                          "Mid-term examination: 30%",
+                                          "Final examination: 50%",
+                                          "Assignments and projects: 20%"
+                                      ]
+                                  }
+                              }
+                          ]
+                      }
+                  ]
+              }
+      
     ],
     "metadata": {
         "academicYear": "2024-2025",
-        "appName": "Engineering Hub",
+        "appName": "Engineering Guru",
         "updatedAt": "2025-02-26"
     }
 }
