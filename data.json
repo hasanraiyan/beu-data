@@ -177,6 +177,92 @@
                             }
                         }
                     ]
+                },
+                {
+                    "id": 4,
+                    "name": "Semester 4",
+                    "subjectsCount": 6,
+                    "credits": 39,
+                    "subjects": [
+                        {
+                            "name": "Formal Language and Automata Theory",
+                            "course_code": null,
+                            "credits": null,
+                            "type": "Core Subject",
+                            "syllabus": {
+                                "courseObjectives": [],
+                                "learningOutcomes": [],
+                                "courseContent": null,
+                                "referenceBooks": [],
+                                "assessmentMethods": []
+                            }
+                        },
+                        {
+                            "name": "Computer Organization and Architecture",
+                            "course_code": null,
+                            "credits": null,
+                            "type": "Core Subject",
+                            "syllabus": {
+                                "courseObjectives": [],
+                                "learningOutcomes": [],
+                                "courseContent": null,
+                                "referenceBooks": [],
+                                "assessmentMethods": []
+                            }
+                        },
+                        {
+                            "name": "Machine Learning",
+                            "course_code": null,
+                            "credits": null,
+                            "type": "Core Subject",
+                            "syllabus": {
+                                "courseObjectives": [],
+                                "learningOutcomes": [],
+                                "courseContent": null,
+                                "referenceBooks": [],
+                                "assessmentMethods": []
+                            }
+                        },
+                        {
+                            "name": "Database Management System",
+                            "course_code": null,
+                            "credits": null,
+                            "type": "Core Subject",
+                            "syllabus": {
+                                "courseObjectives": [],
+                                "learningOutcomes": [],
+                                "courseContent": null,
+                                "referenceBooks": [],
+                                "assessmentMethods": []
+                            }
+                        },
+                         {
+                            "name": "Subject 5",
+                            "course_code": null,
+                            "credits": null,
+                            "type": "Core Subject",
+                            "syllabus": {
+                                "courseObjectives": [],
+                                "learningOutcomes": [],
+                                "courseContent": null,
+                                "referenceBooks": [],
+                                "assessmentMethods": []
+                            }
+                        },
+                         {
+                            "name": "Subject 6",
+                            "course_code": null,
+                            "credits": null,
+                            "type": "Core Subject",
+                            "syllabus": {
+                                "courseObjectives": [],
+                                "learningOutcomes": [],
+                                "courseContent": null,
+                                "referenceBooks": [],
+                                "assessmentMethods": []
+                            }
+                        }
+                    ]
                 }
             ]
         }
