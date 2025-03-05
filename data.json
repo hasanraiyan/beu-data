@@ -239,7 +239,114 @@
                     ]
                 }
             ]
-        }
+        },
+        {
+                  "name": "Computer Science & Engineering",
+                  "icon": "code",
+                  "color": "#2196F3",
+                  "gradientColors": [
+                      "#2196F3",
+                      "#64B5F6"
+                  ],
+                  "description": "Software development, algorithms, and computer systems",
+                  "semesters": [
+                      {
+                          "id": 3,
+                          "name": "Semester 3",
+                          "subjectsCount": 6,
+                          "credits": 24,
+                          "subjects": [
+                              {
+                                  "name": "Analog Electronic Circuits",
+                                  "course_code": 100302,
+                                  "credits": 3,
+                                  "type": "Core Subject",
+                                  "syllabus": {
+                                      "courseObjectives": [
+                                          "Understand diode circuits and their applications.",
+                                          "Analyze BJT and MOSFET circuits for amplification and switching.",
+                                          "Design and analyze operational amplifier-based circuits."
+                                      ],
+                                      "learningOutcomes": [
+                                          "Apply circuit analysis techniques to electronic circuits.",
+                                          "Evaluate amplifier performance parameters.",
+                                          "Implement analog circuit applications using operational amplifiers."
+                                      ],
+                                      "courseContent": "# Course Content\n\n## Unit 1: Diode Circuits\n- PN junction diode, rectifiers, clamping and clipping circuits (6 hrs)\n\n## Unit 2: BJT Circuits\n- Characteristics, small-signal models, biasing, amplifier configurations (8 hrs)\n\n## Unit 3: MOSFET Circuits\n- Structure, switching, amplifier models, gain analysis (6 hrs)\n\n## Unit 4: Operational Amplifiers\n- Differential amplifier, power amplifier, op-amp characteristics (4 hrs)\n\n## Unit 5: Op-Amp Applications\n- Inverting, non-inverting amplifiers, filters, oscillators (8 hrs)\n\n## Unit 6: Nonlinear Applications\n- Comparators, waveform generators, precision rectifiers (10 hrs)",
+                                      "referenceBooks": [
+                                          "Microelectronic Circuits – A. S. Sedra & K. C. Smith",
+                                          "Introduction to Operational Amplifier Theory – J. V. Wait",
+                                          "The Art of Electronics – P. Horowitz & W. Hill"
+                                      ],
+                                      "assessmentMethods": [
+                                          "Mid-term examination: 30%",
+                                          "Final examination: 50%",
+                                          "Assignments and projects: 20%"
+                                      ]
+                                  }
+                              },
+                              {
+                                  "name": "Data Structure & Algorithm",
+                                  "course_code": 100304,
+                                  "credits": 3,
+                                  "type": "Core Subject",
+                                  "syllabus": {
+                                      "courseObjectives": [
+                                          "Understand data structures and their implementations.",
+                                          "Analyze algorithm complexity and performance.",
+                                          "Apply sorting, searching, and graph algorithms."
+                                      ],
+                                      "learningOutcomes": [
+                                          "Implement data structures like stacks, queues, and linked lists.",
+                                          "Analyze and optimize algorithms for efficiency.",
+                                          "Solve problems using trees and graphs."
+                                      ],
+                                      "courseContent": "# Course Content\n\n## Unit 1: Introduction\n- Data structure operations, algorithm complexity (7 hrs)\n\n## Unit 2: Stacks and Queues\n- ADT operations, applications, types of queues (7 hrs)\n\n## Unit 3: Linked Lists\n- Single, doubly, and circular linked lists (7 hrs)\n\n## Unit 4: Sorting and Searching\n- Bubble, Quick, Merge, Heap Sort; Binary and Linear Search (7 hrs)\n\n## Unit 5: Trees\n- Binary Trees, AVL Trees, B-Trees, applications (7 hrs)\n\n## Unit 6: Graphs\n- Representation, traversal algorithms (7 hrs)",
+                                      "referenceBooks": [
+                                          "Data Structures and Algorithms in C++ – Mark Allen Weiss",
+                                          "Fundamentals of Data Structures – Ellis Horowitz",
+                                          "How to Solve it by Computer – R. G. Dromey"
+                                      ],
+                                      "assessmentMethods": [
+                                          "Mid-term examination: 30%",
+                                          "Final examination: 50%",
+                                          "Assignments and projects: 20%"
+                                      ]
+                                  }
+                              },
+                              {
+                                  "name": "Object Oriented Programming using C++",
+                                  "course_code": 100313,
+                                  "credits": 3,
+                                  "type": "Core Subject",
+                                  "syllabus": {
+                                      "courseObjectives": [
+                                          "Understand object-oriented programming concepts.",
+                                          "Implement classes, objects, inheritance, and polymorphism.",
+                                          "Develop applications using C++."
+                                      ],
+                                      "learningOutcomes": [
+                                          "Write C++ programs using OOP principles.",
+                                          "Apply function overloading and templates.",
+                                          "Implement exception handling and file handling in C++."
+                                      ],
+                                      "courseContent": "# Course Content\n\n## Unit 1: Introduction\n- OOP principles, data types, operators (7 hrs)\n\n## Unit 2: Control Structures and Functions\n- Decision making, loops, function overloading (8 hrs)\n\n## Unit 3: Classes and Data Abstraction\n- Constructors, destructors, member functions (8 hrs)\n\n## Unit 4: Inheritance and Templates\n- Operator overloading, function templates, multiple inheritance (5 hrs)\n\n## Unit 5: Pointers and Arrays\n- Pointers, array handling, file handling (7 hrs)\n\n## Unit 6: Exception Handling\n- Exception classes, handling techniques (7 hrs)",
+                                      "referenceBooks": [
+                                          "Thinking in C++ – Bruce Eckel",
+                                          "Object-Oriented Programming with C++ – E. Balaguruswamy",
+                                          "The C++ Programming Language – Bjarne Stroustrup"
+                                      ],
+                                      "assessmentMethods": [
+                                          "Mid-term examination: 30%",
+                                          "Final examination: 50%",
+                                          "Assignments and projects: 20%"
+                                      ]
+                                  }
+                              }
+                          ]
+                      }
+                  ]
+              }
     ],
     "metadata": {
         "academicYear": "2024-2025",
