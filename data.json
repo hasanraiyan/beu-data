@@ -3,11 +3,11 @@
     {
       "name": "Information Technology",
       "id": "IT",
-      "icon": "desktop",
-      "color": "#FF9800",
+      "icon": "project-diagram",
+      "color": "#2196F3",
       "gradientColors": [
-        "#FF9800",
-        "#FFB74D"
+        "#2196F3",
+        "#64B5F6"
       ],
       "description": "Software development, networking, and data management",
       "semesters": [
