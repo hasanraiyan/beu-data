@@ -2,6 +2,7 @@
     "branches": [
         {
             "name": "Information Technology",
+            "id":"IT",
             "icon": "desktop",
             "color": "#FF9800",
             "gradientColors": [
@@ -242,6 +243,7 @@
         },
         {
                   "name": "Computer Science & Engineering",
+                  "id":"CSE",
                   "icon": "code",
                   "color": "#2196F3",
                   "gradientColors": [
