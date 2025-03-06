@@ -102,7 +102,7 @@
             },
             {
               "name": "Object Oriented Programming using C++",
-              "course_code": null,
+              "course_code": 100313,
               "credits": 3,
               "type": "Theory",
               "syllabus": {
@@ -245,10 +245,10 @@
       "name": "Computer Science & Engineering",
       "id": "CSE",
       "icon": "code",
-      "color": "#2196F3",
+      "color": "#FFD700",
       "gradientColors": [
-        "#2196F3",
-        "#64B5F6"
+        "#FFD700",
+        "#FFEB3B"
       ],
       "description": "Software development, algorithms, and computer systems",
       "semesters": [
@@ -353,6 +353,6 @@
   "metadata": {
     "academicYear": "2024-2025",
     "appName": "Engineering Guru",
-    "updatedAt": "2025-03-05"
+    "updatedAt": "2025-03-06"
   }
 }
