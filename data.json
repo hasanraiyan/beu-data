@@ -316,10 +316,10 @@
       "name": "Computer Science & Engineering",
       "id": "CSE",
       "icon": "code",
-      "color": "#FFD700",
+      "color": "#FFC107",
       "gradientColors": [
-        "#FFD700",
-        "#FFEB3B"
+        "#FFC107",
+        "#FFD700"
       ],
       "description": "Software development, algorithms, and computer systems",
       "semesters": [
@@ -424,10 +424,10 @@
       "name": "Electrical Engineering",
       "id": "EE",
       "icon": "project-diagram",
-      "color": "#AA60C8",
+      "color": "#7B1FA2",
       "gradientColors": [
-        "#D69ADE",
-        "#EABDE6"
+        "#8E44AD",
+        "#C39BD3"
       ],
       "description": "Energizing systems, crafting dynamic circuits, and powering future.",
       "semesters": [
