@@ -1,5 +1,5 @@
 
-# Engineering Guru Course Catalog  
+# Engineering Guru
 
 This repository contains the data and potentially the code for the Engineering Guru application, a comprehensive course catalog for engineering students.  
 
