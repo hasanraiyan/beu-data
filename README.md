@@ -1,126 +1,107 @@
 
-Engineering Hub - Semester 3 Syllabus
+# Engineering Guru
 
-Overview
+This repository contains the data and potentially the code for the Engineering Guru application, a comprehensive course catalog for engineering students.  
 
-The Engineering Hub app provides a structured syllabus for the Computer Science & Engineering (CSE) branch, specifically for Semester 3. The syllabus is formatted in JSON for seamless integration into applications.
+## Data Source  
 
-Features
+The course data is stored in `data.json`. It includes information about various engineering branches, semesters, subjects, and detailed syllabi.  
 
-Structured syllabus in JSON format
+## Features  
 
-Includes course objectives, learning outcomes, and content breakdown
+*   Browse engineering branches and their descriptions.  
+*   View semester details, including subjects and credit values.  
+*   Access detailed syllabus information for each subject, including:  
+    *   Course Objectives  
+    *   Learning Outcomes  
+    *   Detailed Course Content (formatted using Markdown)  
+    *   Reference Books  
+    *   Assessment Methods  
 
-References books for each subject
+## Completed Semesters  
 
-Assessment methods for grading
+Here's a list of semester syllabi currently completed in the `data.json` file. You can use this as a checklist for further data entry/completion.  
 
-Supports future expansion to other semesters and branches
+**Information Technology (IT)**  
 
-JSON Structure
+✅ Semester 3 (@hasanraiyan)  
+✅ Semester 4 (@hasanraiyan)  
 
-The syllabus is organized as follows:
+**Computer Science & Engineering (CSE)**  
 
-branches: Contains multiple branches (e.g., Computer Science & Engineering)
+⏳ Semester 3 (@raziquehasan)  
 
-name: Name of the branch (e.g., Computer Science & Engineering)
+**Electrical Engineering (EE)**  
 
-icon: UI icon representation (e.g., "code")
+✅ Semester 3 (@Sachin-2157)  
 
-color & gradientColors: UI design properties
+**Note:** ⏳ indicates under progress, ✅ indicates complete  
 
-description: Overview of the branch
+## Data Structure  
 
-semesters: List of available semesters
+The `data.json` file follows this structure:  
 
-id: Semester number
-
-name: Semester name
-
-subjectsCount: Total subjects in the semester
-
-credits: Total credit count
-
-subjects: List of subjects with details
-
-name: Subject name
-
-course_code: Unique course code
-
-credits: Number of credits
-
-type: Core/Elective subject
-
-syllabus:
-
-courseObjectives: Learning goals
-
-learningOutcomes: Expected knowledge after completion
-
-courseContent: Breakdown of syllabus topics
-
-referenceBooks: List of recommended books
-
-assessmentMethods: Grading structure
-
-Example JSON Entry
-
+```json
 {
-    "name": "Data Structure & Algorithm",
-    "course_code": 100304,
-    "credits": 3,
-    "type": "Core Subject",
-    "syllabus": {
-        "courseObjectives": [
-            "Understand data structures and their implementations.",
-            "Analyze algorithm complexity and performance.",
-            "Apply sorting, searching, and graph algorithms."
-        ],
-        "learningOutcomes": [
-            "Implement data structures like stacks, queues, and linked lists.",
-            "Analyze and optimize algorithms for efficiency.",
-            "Solve problems using trees and graphs."
-        ],
-        "courseContent": "# Course Content\n\n## Unit 1: Introduction\n- Data structure operations, algorithm complexity (7 hrs)\n\n## Unit 2: Stacks and Queues\n- ADT operations, applications, types of queues (7 hrs)",
-        "referenceBooks": [
-            "Data Structures and Algorithms in C++ – Mark Allen Weiss",
-            "Fundamentals of Data Structures – Ellis Horowitz"
-        ],
-        "assessmentMethods": [
-            "Mid-term examination: 30%",
-            "Final examination: 50%",
-            "Assignments and projects: 20%"
-        ]
+  "branches": [
+    {
+      "name": "Branch Name",
+      "id": "Branch ID",
+      "icon": "Icon Reference",
+      "color": "Color Code",
+      "gradientColors": ["Color 1", "Color 2"],
+      "description": "Branch Description",
+      "semesters": [
+        {
+          "id": 3,
+          "name": "Semester 3",
+          "subjectsCount": 6,
+          "credits": 29,
+          "subjects": [
+            {
+              "name": "Subject Name",
+              "course_code": 12345,
+              "credits": 3,
+              "type": "Theory/Core Subject",
+              "syllabus": {
+                "courseObjectives": ["Objective 1", "Objective 2"],
+                "learningOutcomes": ["Outcome 1", "Outcome 2"],
+                "courseContent": "Markdown formatted content",
+                "referenceBooks": ["Book 1", "Book 2"],
+                "assessmentMethods": ["Exam", "Assignment"]
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "metadata": {
+    "academicYear": "YYYY-YYYY",
+    "appName": "Application Name",
+    "updatedAt": "YYYY-MM-DD"
+  }
 }
+```  
 
-Metadata
+## Contributing  
 
-The JSON includes a metadata section containing:
+If you'd like to contribute to this project, you can:  
 
-academicYear: The academic year (e.g., 2024-2025)
+*   Add data for missing semesters and subjects.  
+*   Improve the formatting of `courseContent` using Markdown.  
+*   Suggest enhancements to the data structure.  
+*   Contribute code to build the application.  
 
-appName: The application name (e.g., "Engineering Hub")
+Please follow these steps:  
 
-updatedAt: Last update date of the syllabus
+1.  Fork the repository.  
+2.  Create a new branch for your changes.  
+3.  Commit your changes with clear and descriptive commit messages.  
+4.  Create a pull request.  
 
-Usage
+## Technologies Used  
 
-This JSON can be directly imported into VS Code or any application for further use in:
-
-Mobile or web applications
-
-Backend databases
-
-API integrations
-
-Future Improvements
-
-Expansion to other semesters and branches
-
-Addition of elective subjects
-
-Integration of lecture notes and video resources
-
-Developed for Engineering Hub - Simplifying Learning! 🚀
+*   JSON (for data storage)  
+*   Markdown (for syllabus content formatting)  
 
