@@ -5,17 +5,14 @@
       "id": "IT",
       "icon": "project-diagram",
       "color": "#2196F3",
-      "gradientColors": [
-        "#2196F3",
-        "#64B5F6"
-      ],
+      "gradientColors": ["#2196F3", "#64B5F6"],
       "description": "Software development, networking, and data management",
       "semesters": [
         {
           "id": 3,
           "name": "Semester 3",
           "subjectsCount": 6,
-          "credits": 39,
+          "credits": 29,
           "subjects": [
             {
               "name": "Discrete Mathematics",
@@ -246,10 +243,7 @@
       "id": "CSE",
       "icon": "code",
       "color": "#FFD700",
-      "gradientColors": [
-        "#FFD700",
-        "#FFEB3B"
-      ],
+      "gradientColors": ["#FFD700", "#FFEB3B"],
       "description": "Software development, algorithms, and computer systems",
       "semesters": [
         {
@@ -343,6 +337,148 @@
                   "Final examination: 50%",
                   "Assignments and projects: 20%"
                 ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electrical Engineering",
+      "id": "EE",
+      "icon": "project-diagram",
+      "color": "#AA60C8",
+      "gradientColors": ["#D69ADE", "#EABDE6"],
+      "description": "Energizing systems, crafting dynamic circuits, and powering future.",
+      "semesters": [
+        {
+          "id": 3,
+          "name": "Semester 3",
+          "subjectsCount": 5,
+          "credits": 26,
+          "subjects": [
+            {
+              "name": "Electrical Circuit Analysis",
+              "course_code": 100306,
+              "credits": 4,
+              "type": "Theory",
+              "syllabus": {
+                "courseObjectives": [],
+                "learningOutcomes": [
+                  "Apply Network Theorem for analysis of electrical circuits",
+                  "Obtain the transient and steady-state response of electrical circuits",
+                  "Analyze circuits in the Sinusoidal steady-state (Single-phase and three-phase)"
+                ],
+                "courseContent": "## Module 1: Network Theorems (10 Hours)\n- Superposition theorem, Thevenin theorem, Norton theorem, Maximum power transfer theorem, Reciprocity theorem, Compensation theorem.\n- Analysis with dependent current and voltage sources.\n- Node and Mesh Analysis.\n- Concept of duality and dual networks.\n\n## Module 2: Solution of First and Second Order Networks (8 Hours)\n- Solution of first and second order differential equations for Series and parallel R-L, R-C, R-L-C circuits.\n- Initial and final conditions in network elements.\n- Forced and free response, time constants.\n- Steady state and transient state response.\n\n## Module 3: Sinusoidal Steady State Analysis (8 Hours)\n- Representation of sine function as rotating phasor, phasor diagrams, impedances and admittances.\n- AC circuit analysis, effective or RMS values, average power and complex power.\n- Three-phase circuits.\n- Mutual coupled circuits, Dot Convention in coupled circuits.\n- Ideal Transformer.\n\n## Module 4: Electrical Circuit Analysis Using Laplace Transforms (8 Hours)\n- Review of Laplace Transform, Analysis of electrical circuits using Laplace Transform for standard inputs.\n- Convolution integral, inverse Laplace transform, transformed network with initial conditions.\n- Transfer function representation.\n- Poles and Zeros.\n- Frequency response (magnitude and phase plots), series and parallel resonances.\n\n## Module 5: Two Port Network and Network Functions (6 Hours)\n- Two Port Networks, terminal pairs, relationship of two port variables.\n- Impedance parameters, admittance parameters, transmission parameters, and hybrid parameters.\n- Interconnections of two port networks.",
+                "referenceBooks": [
+                  "M. E. Van Valkenburg, Network Analysis, Prentice Hall, 2006.",
+                  "D. Roy Choudhury, Networks and Systems, New Age International Publications, 1998.",
+                  "W. H. Hayt and J. E. Kemmerly, Engineering Circuit Analysis, McGraw Hill Education, 2013.",
+                  "C. K. Alexander and M. N. O. Sadiku, Electric Circuits, McGraw Hill Education, 2004."
+                ],
+                "assessmentMethods": []
+              }
+            },
+            {
+              "name": "Analog Electronics Circuits",
+              "course_code": 100302,
+              "credits": 3,
+              "type": "Theory",
+              "syllabus": {
+                "courseObjectives": [],
+                "learningOutcomes": [
+                  "Understand the characteristics of Transistors",
+                  "Design and analyse various rectifier and amplifier circuits",
+                  "Design sinusoidal and non-sinusoidal oscillators",
+                  "Understand the functioning of OP-AMP and  design OP-AMP based circuits"
+                ],
+                "courseContent": "# Course Modules\n\n## Module 1: Diode Circuits (4 Hours)\n\n- P-N junction diode, I-V characteristics of a diode  \n- Review of half-wave and full-wave rectifiers  \n- Zener diodes, clamping, and clipping circuits  \n\n## Module 2: BJT Circuits (8 Hours)\n\n- Structure and I-V characteristics of a BJT  \n- BJT as a switch  \n- BJT as an amplifier: small-signal model, biasing circuits, current mirror  \n- Common-emitter, common-base, and common-collector amplifiers  \n- Small signal equivalent circuits, high-frequency equivalent circuits  \n\n## Module 3: MOSFET Circuits (8 Hours)\n\n- MOSFET structure and I-V characteristics  \n- MOSFET as a switch  \n- MOSFET as an amplifier: small-signal model and biasing circuits  \n- Common-source, common-gate, and common-drain amplifiers  \n- Small signal equivalent circuits: gain, input and output impedances, trans-conductance, high-frequency equivalent circuit  \n\n## Module 4: Differential, Multi-stage, and Operational Amplifiers (8 Hours)\n\n- Differential amplifier, power amplifier  \n- Direct coupled multi-stage amplifier  \n- Internal structure of an operational amplifier  \n- Ideal op-amp, non-idealities in an op-amp:  \n  - Output offset voltage  \n  - Input bias current  \n  - Input offset current  \n  - Slew rate  \n  - Gain bandwidth product  \n\n## Module 5: Linear Applications of Op-Amp (8 Hours)\n\n- Idealized analysis of op-amp circuits  \n- Inverting and non-inverting amplifier  \n- Differential amplifier, instrumentation amplifier, integrator, active filter  \n- P, PI, and PID controllers  \n- Lead/lag compensator using an op-amp  \n- Voltage regulator, oscillators (Wein bridge and phase shift)  \n- **Analog to Digital Conversion**  \n\n## Module 6: Nonlinear Applications of Op-Amp (6 Hours)\n\n- Hysteretic Comparator  \n- Zero Crossing Detector  \n- Square-wave and triangular-wave generators  \n- Precision rectifier, peak detector  \n- Monoshot  \n",
+                "referenceBooks": [
+                  "Sedra and Smith, Microelectronic Circuits, Oxford University Press, 2017.",
+                  "Millman and Halkias, Integrated Electronics: Analog and Digital Circuits and Systems, McGraw Hill, 2010.",
+                  "Boylestad and Nashelsky, Electronic Devices and Circuit Theory, Pearson, 2013.",
+                  "Gray, Hurst, Lewis, and Meyer, Analysis and Design of Analog Integrated Circuits, Wiley, 2009."
+                ],
+                "assessmentMethods": []
+              }
+            },
+            {
+              "name": "Electrical Machines - 1",
+              "course_code": 100302,
+              "credits": 3,
+              "type": "Theory",
+              "syllabus": {
+                "courseObjectives": [],
+                "learningOutcomes": [
+                  "Understand the concept of magnetic circuits",
+                  "Understand the operation of DC machines",
+                  "Analyse the difference in operation of different DC machine configurstions",
+                  "Analyse single phase and three phase transformers circuits"
+                ],
+                "courseContent": "# Course Modules\n\n## Module 1: Magnetic Fields and Magnetic Circuits (6 Hours)\n\n- Review of magnetic circuits - MMF, flux, reluctance, inductance  \n- Review of Ampere Law and Biot-Savart Law  \n- Visualization of magnetic fields produced by a bar magnet and a current-carrying coil  \n  - Through air and through a combination of iron and air  \n  - Influence of highly permeable materials on the magnetic flux lines  \n\n## Module 2: Electromagnetic Force and Torque (9 Hours)\n\n- B-H curve of magnetic materials  \n- Flux-linkage vs current characteristic of magnetic circuits  \n- Linear and nonlinear magnetic circuits  \n- Energy stored in the magnetic circuit  \n- Force as a partial derivative of stored energy with respect to the position of a moving element  \n- Torque as a partial derivative of stored energy with respect to the angular position of a rotating element  \n- **Examples:** Galvanometer coil, relay contact, lifting magnet, rotating element with eccentricity or saliency  \n\n## Module 3: Transformers (12 Hours)\n\n- Principle, construction, and operation of single-phase transformers  \n- Equivalent circuit, phasor diagram, voltage regulation, losses, and efficiency  \n- **Testing:**  \n  - Open circuit and short circuit tests  \n  - Polarity test, back-to-back test  \n  - Separation of hysteresis and eddy current losses  \n- **Three-phase transformer:**  \n  - Construction, types of connection, and comparative features  \n  - Parallel operation of single-phase and three-phase transformers  \n- **Autotransformers:**  \n  - Construction, principle, applications, and comparison with two-winding transformers  \n- **Magnetizing current:**  \n  - Effect of nonlinear B-H curve of magnetic core material  \n  - Harmonics in magnetization current  \n- **Phase conversion:**  \n  - Scott connection, three-phase to six-phase conversion  \n- **Tap-changing transformers:**  \n  - No-load and on-load tap-changing of transformers  \n- **Three-winding transformers**  \n- **Cooling of transformers**  \n\n## Module 4: DC Machines (8 Hours)\n\n- Basic construction of a DC machine  \n- Magnetic structure: Stator yoke, stator poles, pole-faces or shoes, air gap, and armature core  \n- Visualization of the magnetic field produced by the field winding excitation with armature windings open  \n- Air gap flux density distribution, flux per pole, induced EMF in an armature coil  \n- **Armature winding and commutation:**  \n  - Elementary armature coil and commutator, lap and wave windings  \n  - Construction of commutator, linear commutation  \n- **Equations:**  \n  - Derivation of back EMF equation, armature MMF wave  \n  - Derivation of torque equation, armature reaction  \n  - Air gap flux density distribution with armature reaction  \n\n## Module 5: DC Machine - Motoring and Generation (7 Hours)\n\n- Armature circuit equation for motoring and generation  \n- Types of field excitations: Separately excited, shunt, and series  \n- **Open circuit characteristics of separately excited DC generator:**  \n  - Back EMF with armature reaction  \n  - Voltage build-up in a shunt generator  \n  - Critical field resistance and critical speed  \n- **V-I characteristics and torque-speed characteristics:**  \n  - Separately excited, shunt, and series motors  \n- **Speed control:**  \n  - Through armature voltage  \n- **Losses, load testing, and back-to-back testing of DC machines**  \n",
+                "referenceBooks": [
+                  "P. C. Sen, Principles of Electric Machines and Power Electronics, Wiley, 2013.",
+                  "A. E. Fitzgerald, Charles Kingsley, and S. D. Umans, Electric Machinery, McGraw Hill, 2014.",
+                  "J. B. Gupta, Theory and Performance of Electrical Machines, S. K. Kataria & Sons, 2019.",
+                  "M. G. Say, Performance and Design of AC Machines, CBS Publishers, 2005.",
+                  "P. S. Bimbhra, Electrical Machinery, Khanna Publishers, 2011."
+                ],
+                "assessmentMethods": []
+              }
+            },
+            {
+              "name": "Electromagnetics Fields",
+              "course_code": 100308,
+              "credits": 4,
+              "type": "Theory",
+              "syllabus": {
+                "courseObjectives": [],
+                "learningOutcomes": [
+                  "Understand the basic law of Electromagnetism",
+                  "To obtain the electric and magnetic fields for simple configurations under static conditions",
+                  "Analyse time varying electric and magnetic fields.",
+                  "Understand Maxwell's equation in different forms and different media."
+                ],
+                "courseContent": "# Course Modules\n\n## Module 1: Magnetic Fields and Magnetic Circuits (6 Hours)\n\n- Review of magnetic circuits - MMF, flux, reluctance, inductance  \n- Review of Ampere Law and Biot-Savart Law  \n- Visualization of magnetic fields produced by a bar magnet and a current-carrying coil  \n  - Through air and through a combination of iron and air  \n  - Influence of highly permeable materials on the magnetic flux lines  \n\n## Module 2: Electromagnetic Force and Torque (9 Hours)\n\n- B-H curve of magnetic materials  \n- Flux-linkage vs current characteristic of magnetic circuits  \n- Linear and nonlinear magnetic circuits  \n- Energy stored in the magnetic circuit  \n- Force as a partial derivative of stored energy with respect to the position of a moving element  \n- Torque as a partial derivative of stored energy with respect to the angular position of a rotating element  \n- **Examples:** Galvanometer coil, relay contact, lifting magnet, rotating element with eccentricity or saliency  \n\n## Module 3: Transformers (12 Hours)\n\n- Principle, construction, and operation of single-phase transformers  \n- Equivalent circuit, phasor diagram, voltage regulation, losses, and efficiency  \n- **Testing:**  \n  - Open circuit and short circuit tests  \n  - Polarity test, back-to-back test  \n  - Separation of hysteresis and eddy current losses  \n- **Three-phase transformer:**  \n  - Construction, types of connection, and comparative features  \n  - Parallel operation of single-phase and three-phase transformers  \n- **Autotransformers:**  \n  - Construction, principle, applications, and comparison with two-winding transformers  \n- **Magnetizing current:**  \n  - Effect of nonlinear B-H curve of magnetic core material  \n  - Harmonics in magnetization current  \n- **Phase conversion:**  \n  - Scott connection, three-phase to six-phase conversion  \n- **Tap-changing transformers:**  \n  - No-load and on-load tap-changing of transformers  \n- **Three-winding transformers**  \n- **Cooling of transformers**  \n\n## Module 4: DC Machines (8 Hours)\n\n- Basic construction of a DC machine  \n- Magnetic structure: Stator yoke, stator poles, pole-faces or shoes, air gap, and armature core  \n- Visualization of the magnetic field produced by the field winding excitation with armature windings open  \n- Air gap flux density distribution, flux per pole, induced EMF in an armature coil  \n- **Armature winding and commutation:**  \n  - Elementary armature coil and commutator, lap and wave windings  \n  - Construction of commutator, linear commutation  \n- **Equations:**  \n  - Derivation of back EMF equation, armature MMF wave  \n  - Derivation of torque equation, armature reaction  \n  - Air gap flux density distribution with armature reaction  \n\n## Module 5: DC Machine - Motoring and Generation (7 Hours)\n\n- Armature circuit equation for motoring and generation  \n- Types of field excitations: Separately excited, shunt, and series  \n- **Open circuit characteristics of separately excited DC generator:**  \n  - Back EMF with armature reaction  \n  - Voltage build-up in a shunt generator  \n  - Critical field resistance and critical speed  \n- **V-I characteristics and torque-speed characteristics:**  \n  - Separately excited, shunt, and series motors  \n- **Speed control:**  \n  - Through armature voltage  \n- **Losses, load testing, and back-to-back testing of DC machines**  \n",
+                "referenceBooks": [
+                  "P. C. Sen, Principles of Electric Machines and Power Electronics, Wiley, 2013.",
+                  "A. E. Fitzgerald, Charles Kingsley, and S. D. Umans, Electric Machinery, McGraw Hill, 2014.",
+                  "J. B. Gupta, Theory and Performance of Electrical Machines, S. K. Kataria & Sons, 2019.",
+                  "M. G. Say, Performance and Design of AC Machines, CBS Publishers, 2005.",
+                  "P. S. Bimbhra, Electrical Machinery, Khanna Publishers, 2011."
+                ],
+                "assessmentMethods": []
+              }
+            },
+            {
+              "name": "Electromagnetics Fields",
+              "course_code": 100310,
+              "credits": 4,
+              "type": "Theory",
+              "syllabus": {
+                "courseObjectives": [
+                  "Understand the concepts of coordinate systems.",
+                  "Analyse three-dimensional motion.",
+                  "Understand the concepts of rigid bodies.",
+                  "Analyse the free-body diagrams of different arrangements.",
+                  "Analyse torsional motion and bending moment."
+                ],
+                "learningOutcomes": [
+                  "Understand the concepts of co-ordinate system",
+                  "Understand the "
+                ],
+                "courseContent": "## **Module 1: Introduction to Vectors and Tensors and Coordinate Systems (5 hours)**  \nIntroduction to vectors and tensors and coordinate systems; Vector and tensor algebra; Indical notation; Symmetric and anti-symmetric tensors; Eigenvalues and Principal axes.\n\n## **Module 2: Three-Dimensional Rotation (4 hours)**  \nThree-dimensional rotation: Euler’s theorem, Axis-angle formulation and Euler angles; Coordinate transformation of vectors and tensors.\n\n---\n\n## **Module 3: Kinematics of Rigid Body (6 hours)**  \nKinematics of rigid bodies: Definition and motion of a rigid body; Rigid bodies as coordinate systems; Angular velocity of a rigid body, and its rate of change; Distinction between two- and three-dimensional rotational motion; Integration of angular velocity to find orientation; Motion relative to a rotating rigid body: Five-term acceleration formula.\n\n## **Module 4: Kinetics of Rigid Bodies (5 hours)**  \nKinetics of rigid bodies: Angular momentum about a point; Inertia tensor: Definition and computation, Principal moments and axes of inertia, Parallel and perpendicular axes theorems; Mass moment of inertia of symmetrical bodies, cylinder, sphere, cone etc.; Area moment of inertia and Polar moment of inertia, Forces and moments; Newton-Euler’s laws of rigid body motion.\n\n## **Module 5: Free Body Diagram (1 hour)**  \nFree body diagrams; Examples on modelling of typical supports and joints and discussion on the kinematic and kinetic constraints that they impose.\n\n---\n\n## **Module 6: General Motion (9 hours)**  \nExamples and problems. General planar motions. General 3-D motions. Free precession, Gyroscopes, Rolling cone.\n\n## **Module 7: Bending Moment (5 hours)**  \nTransverse loading on beams, shear force and bending moment in beams, analysis of cantilevers, simply supported beams and overhanging beams, relationships between loading, shear force and bending moment, shear force and bending moment diagrams.\n\n## **Module 8: Torsional Motion (2 hours)**  \nTorsion of circular shafts, derivation of torsion equation, stress and deformation in circular and hollow shafts.\n\n## **Module 9: Friction (3 hours)**  \nConcept of Friction; Laws of Coulomb friction; Angle of Repose; Coefficient of friction.",
+                "referenceBooks": [
+                  "J. L. Meriam and L. G. Kraige, *Engineering Mechanics: Dynamics*, Wiley, 2011.",
+                  "M. F. Beatty, *Principles of Engineering Mechanics*, Springer Science & Business Media, 1986.",
+                  "R. C. Hibbeler, *Engineering Mechanics: Statics and Dynamics*, Pearson, 2016.",
+                  "Andy Ruina and Rudra Pratap, *Introduction to Statics and Dynamics*, Oxford University Press, 2011.",
+                  "Ferdinand P. Beer, E. Russell Johnston Jr., *Vector Mechanics for Engineers: Statics and Dynamics*, McGraw-Hill, 2012.",
+                  "S. Timoshenko and D. H. Young, *Engineering Mechanics*, McGraw-Hill, 1956.",
+                  "Irving H. Shames, *Engineering Mechanics: Statics and Dynamics*, Pearson, 2006.",
+                  "James G. Simmonds, *A Brief on Tensor Analysis*, Springer, 2012."
+                ],
+                "assessmentMethods": []
               }
             }
           ]
