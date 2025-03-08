@@ -378,13 +378,33 @@
               "credits": 3,
               "type": "Theory",
               "syllabus": {
-                "courseObjectives": [],
-                "learningOutcomes": [],
-                "courseContent": "",
-                "referenceBooks": [],
-                "assessmentMethods": []
+                "courseObjectives": [
+                  "Analyze the asymptotic performance of algorithms.",
+                  "Write rigorous correctness proofs for algorithms.",
+                  "Demonstrate a familiarity with major algorithms and data structures.",
+                  "Apply important algorithmic design paradigms and methods of analysis.",
+                  "Synthesize efficient algorithms in common engineering design situations."
+                ],
+                "learningOutcomes": [
+                  "Analyze worst-case running times of algorithms based on asymptotic analysis.",
+                  "Describe and apply the greedy paradigm.",
+                  "Describe and apply the divide-and-conquer paradigm.",
+                  "Describe and apply the dynamic programming paradigm.",
+                  "Model engineering problems using graph algorithms.",
+                  "Analyze randomized algorithms and approximation algorithms."
+                ],
+                "courseContent": "### Module 1: Lecture 10  \n**Introduction to Analysis of Algorithm**  \n- Asymptotic analysis of complexity bounds (best, average, worst-case behavior)  \n- Performance measurements of Algorithm  \n- Time and space trade-offs  \n- Analysis of recursive algorithms (Substitution method, Recursion tree method, Masters’ theorem)\n\n### Module 2: Lecture 10  \n**Fundamental Algorithmic Strategies**  \n- Brute-Force, Greedy, Dynamic Programming, Branch-and-Bound, Backtracking  \n- Illustrations: Problem-Solving (Bin Packing, Knapsack, TSP)  \n- Heuristics: Characteristics and applications  \n\n### Module 3: Lecture 10  \n**Graph and Tree Algorithms**  \n- Traversal algorithms: Depth First Search (DFS), Breadth First Search (BFS)  \n- Shortest path algorithms, Transitive closure  \n- Minimum Spanning Tree, Topological sorting, Network Flow Algorithm  \n\n### Module 4: Lecture 6  \n**Tractable and Intractable Problems**  \n- Computability of Algorithms  \n- Computability classes (P, NP, NP-complete, NP-hard)  \n- Cook’s theorem, Standard NP-complete problems, Reduction techniques  \n\n### Module 5: Lecture 4  \n**Advanced Topics**  \n- Approximation algorithms  \n- Randomized algorithms  \n- Class of problems beyond NP – P SPACE",
+                "referenceBooks": [
+                  "Introduction to Algorithms, 4TH Edition, Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein, MITPress/McGraw-Hill.",
+                  "Fundamentals of Algorithms – E. Horowitz et al.",
+                  "Algorithm Design, 1ST Edition, Jon Kleinberg and Éva Tardos, Pearson.",
+                  "Algorithm Design: Foundations, Analysis, and Internet Examples, 2nd Edition, Michael T. Goodrich and Roberto Tamassia, Wiley.",
+                  "Algorithms—A Creative Approach, 3RD Edition, Udi Manber, Addison-Wesley."
+                ],
+                "assessmentMethods": [
+                ]
               }
-            },
+            },            
             {
               "name": "Operating System",
               "course_code": 106503,
