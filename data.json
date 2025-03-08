@@ -347,32 +347,6 @@
               }
             },
             {
-              "name": "Professional Skill Development",
-              "course_code": 100508,
-              "credits": 3,
-              "type": "Theory",
-              "syllabus": {
-                "courseObjectives": [],
-                "learningOutcomes": [],
-                "courseContent": "",
-                "referenceBooks": [],
-                "assessmentMethods": []
-              }
-            },
-            {
-              "name": "Compiler Design",
-              "course_code": 106501,
-              "credits": 3,
-              "type": "Theory",
-              "syllabus": {
-                "courseObjectives": [],
-                "learningOutcomes": [],
-                "courseContent": "",
-                "referenceBooks": [],
-                "assessmentMethods": []
-              }
-            },
-            {
               "name": "Design Analysis of Algorithm",
               "course_code": 106502,
               "credits": 3,
@@ -401,10 +375,35 @@
                   "Algorithm Design: Foundations, Analysis, and Internet Examples, 2nd Edition, Michael T. Goodrich and Roberto Tamassia, Wiley.",
                   "Algorithms—A Creative Approach, 3RD Edition, Udi Manber, Addison-Wesley."
                 ],
-                "assessmentMethods": [
-                ]
+                "assessmentMethods": []
               }
-            },            
+            },
+            {
+              "name": "Professional Skill Development",
+              "course_code": 100508,
+              "credits": 3,
+              "type": "Theory",
+              "syllabus": {
+                "courseObjectives": [],
+                "learningOutcomes": [],
+                "courseContent": "",
+                "referenceBooks": [],
+                "assessmentMethods": []
+              }
+            },
+            {
+              "name": "Compiler Design",
+              "course_code": 106501,
+              "credits": 3,
+              "type": "Theory",
+              "syllabus": {
+                "courseObjectives": [],
+                "learningOutcomes": [],
+                "courseContent": "",
+                "referenceBooks": [],
+                "assessmentMethods": []
+              }
+            },
             {
               "name": "Operating System",
               "course_code": 106503,
