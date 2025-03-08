@@ -397,16 +397,96 @@
               "credits": 3,
               "type": "Theory",
               "syllabus": {
+                "courseObjectives": [
+                  "Understand and list the different stages in the process of compilation.",
+                  "Identify different methods of lexical analysis.",
+                  "Design top-down and bottom-up parsers.",
+                  "Identify synthesized and inherited attributes.",
+                  "Develop syntax-directed translation schemes.",
+                  "Develop algorithms to generate code for a target machine.",
+                  "Learn how to design and implement a compiler and study the underlying theories.",
+                  "Focus on imperative language compilation."
+                ],
+                "learningOutcomes": [
+                  "Develop a lexical analyzer for a given grammar specification.",
+                  "Design top-down and bottom-up parsers for a given parser specification.",
+                  "Implement syntax-directed translation schemes.",
+                  "Generate code for a target machine."
+                ],
+                "courseContent": "### Module 1: Lecture 6  \n**Introduction: Phases of compilation and overview.**  \n- Lexical Analysis (Scanner): Regular languages, finite automata, regular expressions  \n- Transition from regular expressions to finite automata  \n- Scanner generator tools (lex, flex)  \n\n### Module 2: Lecture 9  \n**Syntax Analysis (Parser)**  \n- Context-free languages and grammars  \n- Push-down automata  \n- LL(1) grammars and top-down parsing  \n- Operator grammars, LR(0), SLR(1), LR(1), LALR(1)  \n- Bottom-up parsing, ambiguity in grammars  \n- LALR(1) parser generator tools (yacc, bison)  \n\n### Module 3: Lecture 10  \n**Semantic Analysis**  \n- Attribute grammars, syntax-directed definition  \n- Evaluation and flow of attributes in a syntax tree  \n- Symbol Table: Structure, attributes, and management  \n- Run-time environment: Procedure activation, parameter passing, value return, memory allocation, scope  \n\n### Module 4: Lecture 10  \n**Intermediate Code Generation & Optimization**  \n- Translation of different language features  \n- Different types of intermediate representations  \n- Code improvement (Optimization) techniques:  \n  - Control-flow analysis  \n  - Data-flow dependence  \n  - Local and global optimizations  \n  - Loop optimization, peep-hole optimization  \n- Architecture-dependent code improvement:  \n  - Instruction scheduling (pipeline optimization)  \n  - Loop optimization (cache memory efficiency)  \n- Register allocation and target code generation  \n\n### Module 5: Lecture 5  \n**Advanced Topics**  \n- Type systems and data abstraction  \n- Compilation of object-oriented features  \n- Compilation of non-imperative programming languages  \n",
+                "referenceBooks": [
+                  "Compilers: Principles, Techniques, and Tools by Alfred V. Aho, Ravi Sethi, Jeffrey D. Ullman, Pearson Education.",
+                  "Compiler Design by Santanu Chattopadhyay, PHI.",
+                  "Modern Compiler Design by Dick Grune, E. Bal, Ceriel J. H. Jacobs, Koen G. Langendoen, Wiley Dreamtech."
+                ],
+                "assessmentMethods": [
+                  "Assignments and quizzes",
+                  "Midterm and final exams",
+                  "Project-based evaluation",
+                  "Presentations and viva"
+                ]
+              }
+            },
+            {
+              "name": "Operating System",
+              "course_code": 106503,
+              "credits": 3,
+              "type": "Theory",
+              "syllabus": {
+                "courseObjectives": [
+                  "Learn the fundamentals of Operating Systems.",
+                  "Understand the mechanisms of OS to handle processes and threads and their communication.",
+                  "Study memory management mechanisms in contemporary OS.",
+                  "Gain knowledge on distributed operating system concepts, including architecture, mutual exclusion mechanisms, deadlock detection, and agreement protocols.",
+                  "Understand the components and management aspects of concurrency mechanisms.",
+                  "Learn to implement simple OS mechanisms."
+                ],
+                "learningOutcomes": [
+                  "Create processes and threads.",
+                  "Develop algorithms for process scheduling to optimize CPU utilization, throughput, turnaround time, waiting time, and response time.",
+                  "Apply memory management techniques for better utilization and access time improvement.",
+                  "Design and implement a file management system.",
+                  "Develop I/O management functions in OS as part of a uniform device abstraction for synchronization between CPU and I/O controllers."
+                ],
+                "courseContent": "### Module 1: Lecture 4  \n**Introduction:**  \n- Concept of Operating Systems  \n- Generations of Operating Systems  \n- Types of Operating Systems  \n- OS Services  \n- System Calls  \n- Structure of OS (Layered, Monolithic, Microkernel)  \n- Concept of Virtual Machine  \n- Case study on UNIX and Windows Operating System  \n\n### Module 2: Lecture 10  \n**Processes & Threads:**  \n- Definition and relationship between processes  \n- Different states of a process  \n- Process state transitions  \n- Process Control Block (PCB)  \n- Context switching  \n- Thread concepts: Types, benefits, multithreading  \n\n**Process Scheduling:**  \n- Scheduling objectives  \n- Types of schedulers  \n- Scheduling criteria: CPU utilization, throughput, turnaround time, waiting time, response time  \n- Scheduling algorithms: Preemptive and non-preemptive (FCFS, SJF, RR)  \n- Multiprocessor scheduling: RM and EDF  \n\n### Module 3: Lecture 5  \n**Inter-process Communication:**  \n- Critical Section, Race Conditions, Mutual Exclusion  \n- Hardware solutions, Strict Alternation, Peterson’s Solution  \n- The Producer-Consumer Problem, Semaphores, Event Counters, Monitors  \n- Message Passing, Classical IPC Problems (Reader-Writer, Dining Philosopher)  \n\n### Module 4: Lecture 5  \n**Deadlocks:**  \n- Definition  \n- Necessary and sufficient conditions for deadlock  \n- Deadlock Prevention and Avoidance  \n- Banker’s Algorithm  \n- Deadlock detection and recovery  \n\n### Module 5: Lecture 8  \n**Memory Management:**  \n- Basics, Logical vs. Physical Addressing  \n- Contiguous Memory Allocation  \n- Paging: Principle, address translation, hardware support  \n- Segmentation: Hardware support, fragmentation, sharing, disadvantages  \n- Virtual Memory: Locality of reference, page fault, working set, dirty page/bit  \n- Page replacement algorithms: Optimal, FIFO, Second Chance (SC), LRU, NRU  \n\n### Module 6: Lecture 6  \n**I/O and File Management:**  \n- I/O Hardware: Devices, Device Controllers, DMA Principles  \n- I/O Software: Goals, interrupt handlers, drivers  \n- Secondary Storage Structure: Disk Storage, Disk Scheduling Algorithms  \n- File Management: Concept of file, access methods, file types, operations, directory structure, file system structure, allocation methods  \n- Disk Management: Disk scheduling (FCFS, SSTF, SCAN, C-SCAN), disk reliability, formatting, boot block  \n",
+                "referenceBooks": [
+                  "Operating System Concepts Essentials, 9th Edition by Avi Silberschatz, Peter Galvin, Greg Gagne, Wiley Asia Student Edition.",
+                  "Operating Systems: Internals and Design Principles, 5th Edition by William Stallings, Prentice Hall of India.",
+                  "Operating Systems: A Modern Perspective, 3rd Edition by Gary Nutt, Addison Wesley.",
+                  "Understanding the Linux Kernel, 3rd Edition by Daniel P. Bovet, Marco Cesati, O’Reilly and Associates."
+                ],
+                "assessmentMethods": [
+                  "Assignments and quizzes",
+                  "Midterm and final exams",
+                  "Project-based evaluation",
+                  "Practical hands-on assessments"
+                ]
+              }
+            },
+            {
+              "name": "Seminar",
+              "course_code": 106504,
+              "credits": 1,
+              "type": "Theory",
+              "syllabus": {
                 "courseObjectives": [],
                 "learningOutcomes": [],
                 "courseContent": "",
                 "referenceBooks": [],
                 "assessmentMethods": []
               }
-            },
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Semester 6",
+          "subjectsCount": 4,
+          "credits": 12,
+          "subjects": [
             {
-              "name": "Operating System",
-              "course_code": 106503,
+              "name": "Computer Networks",
+              "course_code": 100602,
               "credits": 3,
               "type": "Theory",
               "syllabus": {
@@ -418,9 +498,35 @@
               }
             },
             {
-              "name": "Seminar",
-              "course_code": 106504,
-              "credits": 1,
+              "name": "Software Engineering",
+              "course_code": 106601,
+              "credits": 3,
+              "type": "Theory",
+              "syllabus": {
+                "courseObjectives": [],
+                "learningOutcomes": [],
+                "courseContent": "",
+                "referenceBooks": [],
+                "assessmentMethods": []
+              }
+            },
+            {
+              "name": "Data Mining",
+              "course_code": 106603,
+              "credits": 3,
+              "type": "Theory",
+              "syllabus": {
+                "courseObjectives": [],
+                "learningOutcomes": [],
+                "courseContent": "",
+                "referenceBooks": [],
+                "assessmentMethods": []
+              }
+            },
+            {
+              "name": "Web Technology",
+              "course_code": 106609,
+              "credits": 3,
               "type": "Theory",
               "syllabus": {
                 "courseObjectives": [],
