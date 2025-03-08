@@ -190,6 +190,157 @@
                   ],
                   "description": "Software development, algorithms, and computer systems",
                   "semesters": [
+                   
+                            {
+                                "id": 1,
+                                "name": "Semester 1",
+                                "subjectsCount": 10,
+                                "credits": 20,
+                                "subjects": [
+                                    {
+                                        "name": "Engineering Physics",
+                                        "course_code": 100110,
+                                        "credits": 3,
+                                        "type": "Core Subject"
+                                    },
+                                    {
+                                        "name": "Engineering Mathematics-I",
+                                        "course_code": 100102,
+                                        "credits": 4,
+                                        "type": "Core Subject"
+                                    },
+                                    {
+                                        "name": "Programming for Problem Solving",
+                                        "course_code": 100111,
+                                        "credits": 3,
+                                        "type": "Core Subject"
+                                    },
+                                    {
+                                        "name": "Swachha Bharat Mission (SBM)",
+                                        "course_code": 100115P,
+                                        "credits": 1,
+                                        "type": "Activity-Based Learning"
+                                    },
+                                    {
+                                        "name": "IT Workshop",
+                                        "course_code": 100113,
+                                        "credits": 2,
+                                        "type": "Practical Learning"
+                                    },
+                                    {
+                                        "name": "Basic Electronics Engineering",
+                                        "course_code": 100114,
+                                        "credits": 3,
+                                        "type": "Core Subject"
+                                    },
+                                    {
+                                        "name": "Engineering Physics Lab",
+                                        "course_code": 100110P,
+                                        "credits": 1,
+                                        "type": "Laboratory"
+                                    },
+                                    {
+                                        "name": "Programming for Problem Solving Lab",
+                                        "course_code": 100111P,
+                                        "credits": 1,
+                                        "type": "Laboratory"
+                                    },
+                                    {
+                                        "name": "IT Workshop Lab",
+                                        "course_code": 100113P,
+                                        "credits": 1,
+                                        "type": "Laboratory"
+                                    },
+                                    {
+                                        "name": "Basic Electronics Engineering Lab",
+                                        "course_code": 100114P,
+                                        "credits": 1,
+                                        "type": "Laboratory"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                    {
+                        "name": "Computer Science & Engineering",
+                        "icon": "code",
+                        "color": "#2196F3",
+                        "gradientColors": [
+                            "#2196F3",
+                            "#64B5F6"
+                        ],
+                        "description": "Software development, algorithms, and computer systems",
+                        "semesters": [
+                            {
+                                "id": 2,
+                                "name": "Semester 2",
+                                "subjectsCount": 10,
+                                "credits": 20,
+                                "subjects": [
+                                    {
+                                        "name": "Engineering Chemistry",
+                                        "course_code": 100215,
+                                        "credits": 3,
+                                        "type": "Core Subject"
+                                    },
+                                    {
+                                        "name": "Engineering Mathematics-II",
+                                        "course_code": 100202,
+                                        "credits": 4,
+                                        "type": "Core Subject"
+                                    },
+                                    {
+                                        "name": "Communicative English",
+                                        "course_code": 100216,
+                                        "credits": 3,
+                                        "type": "Core Subject"
+                                    },
+                                    {
+                                        "name": "Sports/Yoga/NCC/NSS",
+                                        "course_code": 100220P,
+                                        "credits": 1,
+                                        "type": "Activity-Based Learning"
+                                    },
+                                    {
+                                        "name": "Python Programming",
+                                        "course_code": 100218,
+                                        "credits": 2,
+                                        "type": "Core Subject"
+                                    },
+                                    {
+                                        "name": "Introduction to Web Design",
+                                        "course_code": 100219,
+                                        "credits": 3,
+                                        "type": "Core Subject"
+                                    },
+                                    {
+                                        "name": "Engineering Chemistry Lab",
+                                        "course_code": 100215P,
+                                        "credits": 1,
+                                        "type": "Laboratory"
+                                    },
+                                    {
+                                        "name": "Communicative English Lab",
+                                        "course_code": 100216P,
+                                        "credits": 1,
+                                        "type": "Laboratory"
+                                    },
+                                    {
+                                        "name": "Python Programming Lab",
+                                        "course_code": 100218P,
+                                        "credits": 1,
+                                        "type": "Laboratory"
+                                    },
+                                    {
+                                        "name": "Introduction to Web Design Lab",
+                                        "course_code": 100219P,
+                                        "credits": 1,
+                                        "type": "Laboratory"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
                       {
                           "id": 3,
                           "name": "Semester 3",
