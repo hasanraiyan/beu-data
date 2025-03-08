@@ -309,6 +309,109 @@
               }
             }
           ]
+        },
+        {
+          "id": 5,
+          "name": "Semester 5",
+          "subjectsCount": 6,
+          "credits": 16,
+          "subjects": [
+            {
+              "name": "Microprocessor",
+              "course_code": 100504,
+              "credits": 3,
+              "type": "Theory",
+              "syllabus": {
+                "courseObjectives": [
+                  "Do assembly language programming.",
+                  "Do interfacing design of peripherals like I/O, A/D, D/A, timer, etc.",
+                  "Develop systems using different microcontrollers."
+                ],
+                "learningOutcomes": [
+                  "Understand the fundamentals of microprocessors and microcontrollers.",
+                  "Gain knowledge of the 8051 architecture and instruction set.",
+                  "Learn memory and I/O interfacing techniques.",
+                  "Understand external communication interfaces like RS232, SPI, I2C, and Bluetooth.",
+                  "Implement applications such as LED, LCD, keyboard, and motor interfacing."
+                ],
+                "courseContent": "## Module 1: Fundamentals of Microprocessors (7 Hours)\n- Introduction to microprocessor architecture, comparison of 8-bit, 16-bit, and 32-bit microcontrollers, embedded systems, and the 8051 family.\n\n## Module 2: The 8051 Architecture (8 Hours)\n- Internal block diagram, CPU, ALU, address, control bus, working registers, SFRs, clock, RESET circuits, memory structures, I/O ports, data and program memory.\n\n## Module 3: Instruction Set and Programming (8 Hours)\n- Addressing modes, instruction syntax, data types, instruction categories (data transfer, arithmetic, logic, branch), assembly and C language programming.\n\n## Module 4: Memory and I/O Interfacing (6 Hours)\n- Memory expansion, control signals, wait states, interfacing peripherals like ADC, DAC, timers, counters.\n\n## Module 5: External Communication Interface (6 Hours)\n- Synchronous & asynchronous communication (RS232, SPI, I2C), introduction to Bluetooth and Zigbee.\n\n## Module 6: Applications (6 Hours)\n- LED, LCD, keyboard interfacing, stepper motor and DC motor control, sensor interfacing.",
+                "referenceBooks": [
+                  "M. A. Mazidi, J. G. Mazidi, R. D. McKinlay – The 8051 Microcontroller and Embedded Systems, Pearson, 2007.",
+                  "K. J. Ayala – 8051 Microcontroller, Delmar Cengage Learning, 2004.",
+                  "R. Kamal – Embedded System, McGraw Hill, 2009.",
+                  "R. S. Gaonkar – Microprocessor Architecture & Applications, Penram, 1996.",
+                  "D. A. Patterson, J. H. Hennessy – Computer Organization and Design.",
+                  "D. V. Hall – Microprocessors & Interfacing, McGraw Hill, 1991."
+                ],
+                "assessmentMethods": []
+              }
+            },
+            {
+              "name": "Professional Skill Development",
+              "course_code": 100508,
+              "credits": 3,
+              "type": "Theory",
+              "syllabus": {
+                "courseObjectives": [],
+                "learningOutcomes": [],
+                "courseContent": "",
+                "referenceBooks": [],
+                "assessmentMethods": []
+              }
+            },
+            {
+              "name": "Compiler Design",
+              "course_code": 106501,
+              "credits": 3,
+              "type": "Theory",
+              "syllabus": {
+                "courseObjectives": [],
+                "learningOutcomes": [],
+                "courseContent": "",
+                "referenceBooks": [],
+                "assessmentMethods": []
+              }
+            },
+            {
+              "name": "Design Analysis of Algorithm",
+              "course_code": 106502,
+              "credits": 3,
+              "type": "Theory",
+              "syllabus": {
+                "courseObjectives": [],
+                "learningOutcomes": [],
+                "courseContent": "",
+                "referenceBooks": [],
+                "assessmentMethods": []
+              }
+            },
+            {
+              "name": "Operating System",
+              "course_code": 106503,
+              "credits": 3,
+              "type": "Theory",
+              "syllabus": {
+                "courseObjectives": [],
+                "learningOutcomes": [],
+                "courseContent": "",
+                "referenceBooks": [],
+                "assessmentMethods": []
+              }
+            },
+            {
+              "name": "Seminar",
+              "course_code": 106504,
+              "credits": 1,
+              "type": "Theory",
+              "syllabus": {
+                "courseObjectives": [],
+                "learningOutcomes": [],
+                "courseContent": "",
+                "referenceBooks": [],
+                "assessmentMethods": []
+              }
+            }
+          ]
         }
       ]
     },
