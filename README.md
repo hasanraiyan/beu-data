@@ -1,48 +1,45 @@
 
-# Engineering Guru Course Catalog
+# Engineering Guru Course Catalog  
 
-This repository contains the data and potentially the code for the Engineering Guru application, a comprehensive course catalog for engineering students.
+This repository contains the data and potentially the code for the Engineering Guru application, a comprehensive course catalog for engineering students.  
 
-## Data Source
+## Data Source  
 
-The course data is stored in `data.json`. It includes information about various engineering branches, semesters, subjects, and detailed syllabi.
+The course data is stored in `data.json`. It includes information about various engineering branches, semesters, subjects, and detailed syllabi.  
 
-## Features
+## Features  
 
-*   Browse engineering branches and their descriptions.
-*   View semester details, including subjects and credit values.
-*   Access detailed syllabus information for each subject, including:
-    *   Course Objectives
-    *   Learning Outcomes
-    *   Detailed Course Content (formatted using Markdown)
-    *   Reference Books
-    *   Assessment Methods
+*   Browse engineering branches and their descriptions.  
+*   View semester details, including subjects and credit values.  
+*   Access detailed syllabus information for each subject, including:  
+    *   Course Objectives  
+    *   Learning Outcomes  
+    *   Detailed Course Content (formatted using Markdown)  
+    *   Reference Books  
+    *   Assessment Methods  
 
-## Completed Semesters
+## Completed Semesters  
 
-Here's a list of semester syllabi currently completed in the `data.json` file.  You can use this as a checklist for further data entry/completion.
+Here's a list of semester syllabi currently completed in the `data.json` file. You can use this as a checklist for further data entry/completion.  
 
-**Information Technology (IT)**
+**Information Technology (IT)**  
 
-*   [x] Semester 3   (@hasanraiyan)
-*   [x] Semester 4   (@hasanraiyan) 
+✅ Semester 3 (@hasanraiyan)  
+✅ Semester 4 (@hasanraiyan)  
 
+**Computer Science & Engineering (CSE)**  
 
-**Computer Science & Engineering (CSE)**
+⏳ Semester 3 (@raziquehasan)  
 
-*   [ ] Semester 3 (@raziquehasan) 
+**Electrical Engineering (EE)**  
 
+✅ Semester 3 (@Sachin-2157)  
 
-**Electrical Engineering (EE)**
+**Note:** ⏳ indicates under progress, ✅ indicates complete  
 
-*   [x] Semester 3 (@Sachin-2157)
+## Data Structure  
 
-
-**Note:** [ ] indicates not complete, [x] indicates complete
-
-## Data Structure
-
-The `data.json` file follows this structure:
+The `data.json` file follows this structure:  
 
 ```json
 {
@@ -85,26 +82,26 @@ The `data.json` file follows this structure:
     "updatedAt": "YYYY-MM-DD"
   }
 }
-```
+```  
 
-## Contributing
+## Contributing  
 
-If you'd like to contribute to this project, you can:
+If you'd like to contribute to this project, you can:  
 
-*   Add data for missing semesters and subjects.
-*   Improve the formatting of `courseContent` using Markdown.
-*   Suggest enhancements to the data structure.
-*   Contribute code to build the application.
+*   Add data for missing semesters and subjects.  
+*   Improve the formatting of `courseContent` using Markdown.  
+*   Suggest enhancements to the data structure.  
+*   Contribute code to build the application.  
 
-Please follow these steps:
+Please follow these steps:  
 
-1.  Fork the repository.
-2.  Create a new branch for your changes.
-3.  Commit your changes with clear and descriptive commit messages.
-4.  Create a pull request.
+1.  Fork the repository.  
+2.  Create a new branch for your changes.  
+3.  Commit your changes with clear and descriptive commit messages.  
+4.  Create a pull request.  
 
-## Technologies Used
+## Technologies Used  
 
-*   JSON (for data storage)
-*   Markdown (for syllabus content formatting)
+*   JSON (for data storage)  
+*   Markdown (for syllabus content formatting)  
 
