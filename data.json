@@ -582,10 +582,30 @@
               "credits": 3,
               "type": "Theory",
               "syllabus": {
-                "courseObjectives": [],
-                "learningOutcomes": [],
-                "courseContent": "",
-                "referenceBooks": [],
+                "courseObjectives": [
+                  "To understand the fundamental principles of biology and its relevance to engineering.",
+                  "To explore key biological concepts such as classification, genetics, biomolecules, enzymes, metabolism, and microbiology.",
+                  "To analyze biological processes and apply engineering principles to biological systems."
+                ],
+                "learningOutcomes": [
+                  "Describe key biological discoveries from the 18th century.",
+                  "Understand the basis of biological classification.",
+                  "Explain recessiveness and dominance in genetic material transmission.",
+                  "Recognize the common molecular building blocks of life.",
+                  "Classify enzymes and differentiate enzyme mechanisms.",
+                  "Identify DNA as a genetic material in information transfer.",
+                  "Analyze biological processes at the reductionist level.",
+                  "Apply thermodynamic principles to biological systems.",
+                  "Identify and classify microorganisms."
+                ],
+                "courseContent": "### Module 1: Introduction (2 hrs)\n- Importance of Biology in science and engineering.\n- Comparison between biological and artificial systems.\n- Key discoveries from the 18th century.\n\n### Module 2: Classification (3 hrs)\n- Criteria for biological classification.\n- Hierarchical classification and model organisms.\n\n### Module 3: Genetics (4 hrs)\n- Mendel’s laws, gene mapping, and inheritance.\n- Meiosis, mitosis, and single-gene disorders.\n\n### Module 4: Biomolecules (4 hrs)\n- Common molecular building blocks.\n- Monomers, polymers, nucleotides, DNA/RNA, and lipids.\n\n### Module 5: Enzymes (4 hrs)\n- Role of enzymes in catalysis.\n- Enzyme classification, kinetics, and RNA catalysis.\n\n### Module 6: Information Transfer (4 hrs)\n- DNA as genetic material.\n- Genetic coding, recombination, and regulation.\n\n### Module 7: Macromolecular Analysis (5 hrs)\n- Protein structures and their functions.\n\n### Module 8: Metabolism (4 hrs)\n- Energy transactions and biological thermodynamics.\n- ATP as an energy currency, glycolysis, Krebs cycle, photosynthesis.\n\n### Module 9: Microbiology (3 hrs)\n- Single-celled organisms, classification, and sterilization techniques.\n",
+                "referenceBooks": [
+                  "Campbell, N.A., Reece, J. et al. - Biology: A Global Approach (Pearson Education Ltd.)",
+                  "Conn, E., Stumpf, P.K., Bruening, D., Do, R.H. - Outlines of Biochemistry (John Wiley & Sons)",
+                  "Nelson, L., Cox, M.M. - Principles of Biochemistry (V Edition) (W.H. Freeman & Company)",
+                  "Stent, G., Calendar, R. - Molecular Genetics (Second Edition) (W.H. Freeman & Company)",
+                  "Prescott, L.M., Harley, J.P., Klein, C.A. - Microbiology (2nd Edition, Brown Publishers, 1995)"
+                ],
                 "assessmentMethods": []
               }
             },
@@ -629,7 +649,7 @@
               }
             }
           ]
-        }        
+        }
       ]
     },
     {
