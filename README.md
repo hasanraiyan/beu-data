@@ -26,6 +26,9 @@ Here's a list of semester syllabi currently completed in the `data.json` file. Y
 
 ✅ Semester 3 (@hasanraiyan)  
 ✅ Semester 4 (@hasanraiyan)  
+✅ Semester 5 (@hasanraiyan)  
+✅ Semester 6 (@hasanraiyan)  
+
 
 **Computer Science & Engineering (CSE)**  
 
@@ -34,6 +37,7 @@ Here's a list of semester syllabi currently completed in the `data.json` file. Y
 **Electrical Engineering (EE)**  
 
 ✅ Semester 3 (@Sachin-2157)  
+✅ Semester 4 (@Sachin-2157)  
 
 **Note:** ⏳ indicates under progress, ✅ indicates complete  
 
