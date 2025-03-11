@@ -541,7 +541,7 @@
                 ],
                 "assessmentMethods": []
               }
-            },            
+            },
             {
               "name": "Data Mining",
               "course_code": 106603,
@@ -569,7 +569,67 @@
               }
             }
           ]
-        }
+        },
+        {
+          "id": 7,
+          "name": "Semester 7",
+          "subjectsCount": 4,
+          "credits": 12,
+          "subjects": [
+            {
+              "name": "Biology for Engineers",
+              "course_code": 100708,
+              "credits": 3,
+              "type": "Theory",
+              "syllabus": {
+                "courseObjectives": [],
+                "learningOutcomes": [],
+                "courseContent": "",
+                "referenceBooks": [],
+                "assessmentMethods": []
+              }
+            },
+            {
+              "name": "Human Resource Development and Organizational Behavior",
+              "course_code": 100714,
+              "credits": 3,
+              "type": "Theory",
+              "syllabus": {
+                "courseObjectives": [],
+                "learningOutcomes": [],
+                "courseContent": "",
+                "referenceBooks": [],
+                "assessmentMethods": []
+              }
+            },
+            {
+              "name": "Mobile and Wireless Computing",
+              "course_code": 106704,
+              "credits": 3,
+              "type": "Theory",
+              "syllabus": {
+                "courseObjectives": [],
+                "learningOutcomes": [],
+                "courseContent": "",
+                "referenceBooks": [],
+                "assessmentMethods": []
+              }
+            },
+            {
+              "name": "E-Commerce and ERP",
+              "course_code": 106715,
+              "credits": 3,
+              "type": "Theory",
+              "syllabus": {
+                "courseObjectives": [],
+                "learningOutcomes": [],
+                "courseContent": "",
+                "referenceBooks": [],
+                "assessmentMethods": []
+              }
+            }
+          ]
+        }        
       ]
     },
     {
