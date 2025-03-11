@@ -490,10 +490,24 @@
               "credits": 3,
               "type": "Theory",
               "syllabus": {
-                "courseObjectives": [],
-                "learningOutcomes": [],
-                "courseContent": "",
-                "referenceBooks": [],
+                "courseObjectives": [
+                  "To develop an understanding of modern network architectures from a design and performance perspective.",
+                  "To introduce the student to the major concepts involved in wide-area networks (WANs), local area networks (LANs), and Wireless LANs (WLANs).",
+                  "To provide an opportunity to do network programming.",
+                  "To provide WLAN measurement ideas."
+                ],
+                "learningOutcomes": [
+                  "Explain the functions of the different layers of the OSI protocol.",
+                  "Draw the functional block diagram of wide-area networks (WANs), local area networks (LANs), and Wireless LANs (WLANs) and describe the function of each block.",
+                  "For a given requirement (small scale) of wide-area networks (WANs), local area networks (LANs), and Wireless LANs (WLANs), design it based on the market available components.",
+                  "For a given problem related to TCP/IP protocol, develop the network programming.",
+                  "Configure DNS, DDNS, TELNET, EMAIL, File Transfer Protocol (FTP), WWW, HTTP, SNMP, Bluetooth, and Firewalls using open-source available software and tools."
+                ],
+                "courseContent": "## Module 1: Data Communication Components (8 Hours)\n- Representation of data and its flow in Networks\n- Various Connection Topologies, Protocols and Standards\n- OSI model, Transmission Media\n- LAN: Wired LAN, Wireless LANs\n- Connecting LAN and Virtual LAN\n- Techniques for Bandwidth Utilization: Multiplexing - Frequency division, Time division, and Wave division\n- Concepts on Spread Spectrum\n\n## Module 2: Data Link Layer and Medium Access Sub Layer (8 Hours)\n- Error Detection and Error Correction - Fundamentals\n- Block coding, Hamming Distance, CRC\n- Flow Control and Error Control Protocols - Stop and Wait, Go Back - N ARQ, Selective Repeat ARQ\n- Sliding Window, Piggybacking, Random Access, Multiple access protocols - Pure ALOHA, Slotted ALOHA, CSMA/CD, CDMA/CA\n\n## Module 3: Network Layer (8 Hours)\n- Switching, Logical Addressing - IPv4, IPv6\n- Address Mapping - ARP, RARP, BOOTP, and DHCP\n- Delivery, Forwarding, and Unicast Routing Protocols\n\n## Module 4: Transport Layer (4 Hours)\n- Process to Process Communication\n- User Datagram Protocol (UDP), Transmission Control Protocol (TCP)\n- TCP Service Congestion Control\n- Quality of Service, QoS Improving Techniques: Leaky Bucket and Token Bucket Algorithm\n\n## Module 5: Application Layer (4 Hours)\n- Domain Name System (DNS), DDNS, TELNET, EMAIL\n- File Transfer Protocol (FTP), WWW, HTTP, SNMP, Bluetooth\n- Firewalls, Basic Concepts of Cryptography",
+                "referenceBooks": [
+                  "Data Communication and Networking, 4th Edition, Behrouz A. Forouzan, McGraw-Hill.",
+                  "Data and Computer Communication, 8th Edition, William Stallings, Pearson Prentice Hall India."
+                ],
                 "assessmentMethods": []
               }
             },
@@ -503,13 +517,31 @@
               "credits": 3,
               "type": "Theory",
               "syllabus": {
-                "courseObjectives": [],
-                "learningOutcomes": [],
-                "courseContent": "",
-                "referenceBooks": [],
+                "courseObjectives": [
+                  "Introduce the fundamental concepts and principles of Software Engineering.",
+                  "Familiarize students with different software development life cycle models.",
+                  "Provide knowledge on requirement analysis, software design, testing, and maintenance.",
+                  "Enable students to apply software engineering principles to real-world projects.",
+                  "Develop the ability to use software engineering tools and techniques effectively."
+                ],
+                "learningOutcomes": [
+                  "Understand and explain different software development methodologies.",
+                  "Analyze and document software requirements using standard models.",
+                  "Design structured and object-oriented software solutions.",
+                  "Apply software testing techniques to ensure software quality.",
+                  "Understand software maintenance models and reengineering concepts."
+                ],
+                "courseContent": "## Module 1: Introduction to Software Engineering (8 Hours)\n- History and evolution of Software Engineering, software crisis, characteristics of software.\n- Brooks’ No Silver Bullet, Software Myths, and Software Development Life Cycles.\n- Software Development Models: Waterfall, Evolutionary, Incremental, Spiral, Agile, and Rational Unified Process.\n\n## Module 2: Requirements Engineering (8 Hours)\n- Importance of Requirement Analysis, User Needs, Software Features, and Requirements.\n- Functional and Nonfunctional Requirements, Enduring vs. Volatile Requirements.\n- Software Requirements Specification (SRS), tools for requirement gathering (Flowcharts, Decision Trees, Decision Tables).\n\n## Module 3: Software Design (8 Hours)\n- Goals and principles of good software design.\n- Design methodologies: Structured vs. Object-Oriented Design.\n- Data-Oriented Software Design, Modularization, Cohesion, Coupling.\n- Design Patterns, Top-Down & Bottom-Up Approaches.\n\n## Module 4: Software Testing (7 Hours)\n- Testing methodologies: Unit Testing, Integration Testing, System Testing.\n- Functional Testing: Boundary Value Analysis, Equivalence Class Partitioning, Decision Table Testing.\n- Structural Testing: Path Testing, Data Flow Testing, Mutation Testing.\n- Debugging techniques, Testing Tools & Standards.\n\n## Module 5: Software Maintenance (5 Hours)\n- Software maintenance processes and models.\n- Reverse Engineering and Reengineering techniques.\n- Regression Testing, Configuration Management, Documentation.\n",
+                "referenceBooks": [
+                  "R. S. Pressman – Software Engineering: A Practitioner's Approach, McGraw Hill.",
+                  "Rajib Mall – Fundamentals of Software Engineering, 4th Edition, PHI.",
+                  "G. G. Schulmeyer – Zero Defect Software, McGraw-Hill.",
+                  "J. Rumbaugh – Object-Oriented Modeling and Design, Prentice Hall.",
+                  "K. K. Aggarwal, Yogesh Singh – Software Engineering, New Age International Publishers."
+                ],
                 "assessmentMethods": []
               }
-            },
+            },            
             {
               "name": "Data Mining",
               "course_code": 106603,
@@ -649,316 +681,298 @@
       ]
     },
     {
-      
       "name": "Electrical Engineering",
       "id": "EE",
       "icon": "project-diagram",
       "color": "#441752",
-      "gradientColors": ["#8174A0", "#EA888B5"],
+      "gradientColors": [
+        "#8174A0",
+        "#EA888B5"
+      ],
       "description": "Energizing systems, crafting dynamic circuits, and powering future.",
       "semesters": [
-          {
-              "id": 3,
-              "name": "Semester 3",
-              "subjectsCount": 5,
-              "credits": 26,
-              "subjects": [
-                  {
-                      "name": "Electrical Circuit Analysis",
-                      "course_code": 100306,
-                      "credits": 4,
-                      "type": "Theory",
-                      "syllabus": {
-                          "courseObjectives": [],
-                          "learningOutcomes": [
-                              "Apply Network Theorem for analysis of electrical circuits",
-                              "Obtain the transient and steady-state response of electrical circuits",
-                              "Analyze circuits in the Sinusoidal steady-state (Single-phase and three-phase)"
-                          ],
-                          "courseContent": "## **Module 1: Network Theorems (10 Hours)**  \nSuperposition theorem, Thevenin theorem, Norton theorem; Maximum power transfer theorem, Reciprocity theorem, Compensation theorem; Analysis with dependent current and voltage sources; Node and Mesh Analysis; Concept of duality and dual networks.\n\n## **Module 2: Solution of First and Second Order Networks (8 Hours)**  \nSolution of first and second order differential equations for series and parallel R-L, R-C, R-L-C circuits; Initial and final conditions in network elements; Forced and free response, time constants; Steady-state and transient state response.\n\n## **Module 3: Sinusoidal Steady State Analysis (8 Hours)**  \nRepresentation of sine function as a rotating phasor; Phasor diagrams, impedances and admittances; AC circuit analysis, effective or RMS values, average power and complex power; Three-phase circuits, mutual coupled circuits; Dot convention in coupled circuits, ideal transformer.\n\n## **Module 4: Electrical Circuit Analysis Using Laplace Transforms (8 Hours)**  \nReview of Laplace Transform; Analysis of electrical circuits using Laplace Transform for standard inputs; Convolution integral, inverse Laplace transform; Transformed network with initial conditions; Transfer function representation, Poles and Zeros; Frequency response (magnitude and phase plots), series and parallel resonances.\n\n## **Module 5: Two Port Network and Network Functions (6 Hours)**  \nTwo port networks, terminal pairs; Relationship of two port variables; Impedance parameters, admittance parameters; Transmission parameters and hybrid parameters; Interconnections of two port networks.",
-                          "referenceBooks": [
-                              "M. E. Van Valkenburg, Network Analysis, Prentice Hall, 2006.",
-                              "D. Roy Choudhury, Networks and Systems, New Age International Publications, 1998.",
-                              "W. H. Hayt and J. E. Kemmerly, Engineering Circuit Analysis, McGraw Hill Education, 2013.",
-                              "C. K. Alexander and M. N. O. Sadiku, Electric Circuits, McGraw Hill Education, 2004."
-                          ],
-                          "assessmentMethods": []
-                      
-                  
-                      }
-                  },
-                  {
-                       "name": "Analog Electronics Circuits",
-                       "course_code": 100302,
-                       "credits": 3,
-                       "type": "Theory",
-                       "syllabus": {
-                       "courseObjectives": [],
-                           "learningOutcomes": [
-                               "Understand the characteristics of Transistors",
-                               "Design and analyse various rectifier and amplifier circuits",
-                               "Design sinusoidal and non-sinusoidal oscillators",
-                               "Understand the functioning of OP-AMP and  design OP-AMP based circuits"
-                      ],
-                               "courseContent": "## **Module 1: Diode circuits (4 Hours)**  \nP-N junction diode, I-V characteristics of a diode; review of half-wave and full-wave rectifiers, Zener diodes, clamping and clipping circuits.\n\n## **Module 2: BJT circuits (8 Hours)**  \nStructure and I-V characteristics of a BJT; BJT as a switch. BJT as an amplifier: small-signal model, biasing circuits, current mirror; common-emitter, common-base and common-collector amplifiers; Small signal equivalent circuits, high-frequency equivalent circuits.\n\n## **Module 3: MOSFET circuits (8 Hours)**  \nMOSFET structure and I-V characteristics. MOSFET as a switch. MOSFET as an amplifier: small-signal model and biasing circuits, common-source, common-gate and common-drain amplifiers; small signal equivalent circuits - gain, input and output impedances, trans-conductance, high-frequency equivalent circuit.\n\n## **Module 4: Differential, multi-stage and operational amplifiers (8 Hours)**  \nDifferential amplifier; power amplifier; direct coupled multi-stage amplifier; internal structure of an operational amplifier, ideal op-amp, non-idealities in an op-amp (Output offset voltage, input bias current, input offset current, slew rate, gain bandwidth product).\n\n## **Module 5: Linear applications of op-amp (8 Hours)**  \nIdealized analysis of op-amp circuits. Inverting and non-inverting amplifier, differential amplifier, instrumentation amplifier, integrator, active filter, P PI and PID controllers and lead/lag compensator using an op-amp, voltage regulator, oscillators (Wein bridge and phase shift).\n\n## **Module 6: Nonlinear applications of op-amp (6 Hours)**  \nHysteretic Comparator, Zero Crossing Detector, Square-wave and triangular-wave generators. Precision rectifier, peak detector, Monoshot.\n\n## **Analog to Digital Conversion.**",
-                          "referenceBooks": [
-                              "A. S. Sedra and K. C. Smith, Microelectronic Circuits, Oxford University Press, 1998.",
-                              "J. V. Wait, L. P. Huelsman and G. A. Korn, Introduction to Operational Amplifier theory and applications,                             McGraw Hill U. S., 1992.",
-                              "J. Millman and A. Grabel, Microelectronics, McGraw Hill Education, 1988.",
-                              "P. Horowitz and W. Hill, The Art of Electronics, Cambridge University Press, 1989."
-                          ],
-                             "assessmentMethods": []
-                      }
-                  },
-                  {
-                      "name": "Electrical Machines - 1",
-                      "course_code": 100307,
-                      "credits": 4,
-                      "type": "Theory",
-                      "syllabus": {
-                          "courseObjectives": [
-                              
-                          ],
-                          "learningOutcomes": [
-                              "Understand the concept of magnetic circuits",
-                              "Understand operation of DC machines",
-                              "Understand the difference operation of different DC machine configuration",
-                              "Understand the single phase and three phase transformers circuits"
-                          ],
-                          "courseContent":"## **Module 1: Magnetic Fields and Magnetic Circuits (6 Hours)**  \nReview of magnetic circuits - MMF, flux, reluctance, inductance; review of Ampere Law and Biot-Savart Law; Visualization of magnetic fields produced by a bar magnet and a current-carrying coil - through air and through a combination of iron and air; Influence of highly permeable materials on the magnetic flux lines.\n\n## **Module 2: Electromagnetic Force and Torque (9 Hours)**  \nB-H curve of magnetic materials; Flux-linkage vs current characteristic of magnetic circuits; Linear and nonlinear magnetic circuits; Energy stored in the magnetic circuit; Force as a partial derivative of stored energy with respect to the position of a moving element; Torque as a partial derivative of stored energy with respect to the angular position of a rotating element. Examples - Galvanometer coil, relay contact, lifting magnet, rotating element with eccentricity or saliency.\n\n## **Module 3: Transformers (12 Hours)**  \nPrinciple, construction, and operation of single-phase transformers, equivalent circuit, phasor diagram, voltage regulation, losses, and efficiency. Testing - Open circuit and short circuit tests, polarity test, back-to-back test, separation of hysteresis and eddy current losses. Three-phase transformer - construction, types of connection, and their comparative features. Parallel operation of single-phase and three-phase transformers. Autotransformers - Construction, principle, applications, and comparison with two winding transformers. Magnetizing current, effect of nonlinear B-H curve of magnetic core material, harmonics in magnetization current. Phase conversion - Scott connection, three-phase to six-phase conversion. Tap-changing transformers - No-load and on-load tap-changing of transformers. Three-winding transformers. Cooling of transformers.\n\n## **Module 4: DC Machines (8 Hours)**  \nBasic construction of a DC machine, magnetic structure - stator yoke, stator poles, pole-faces or shoes, air gap, and armature core. Visualization of magnetic field produced by the field winding excitation with armature winding open, air gap flux density distribution, flux per pole, induced EMF in an armature coil. Armature winding and commutation - Elementary armature winding, the coil and commutator, lap and wave windings, construction of the commutator, linear commutation. Derivation of back EMF equation, armature MMF wave, derivation of torque equation, armature reaction, air gap flux density distribution with armature reaction.\n\n## **Module 5: DC Machine - Motoring and Generation (7 Hours)**  \nArmature circuit equation for motoring and generation. Types of field excitations - separately excited, shunt, and series. Open circuit characteristics of separately excited DC generator, back EMF with armature reaction, voltage build-up in a shunt generator, critical field resistance, and critical speed. V-I characteristics and torque-speed characteristics of separately excited, shunt, and series motors. Speed control through armature voltage. Losses, load testing, and back-to-back testing of DC machines.",
-
-                          "referenceBooks": [
-                              "P. S. Bimbhra, Electrical Machinery, Khanna Publishers.",
-                              "J. B. Gupta, Theory and Performance of Electrical Machines, S. K. Kataria & Sons.",
-                              "A. E. Fitzgerald, C. Kingsley, and S. D. Umans, Electric Machinery, McGraw Hill.",
-                              "M. G. Say, Performance and Design of AC Machines, Pitman & Sons."
-                          ],
-                          "assessmentMethods": []
-                      } 
-                      
-                  },
-                  {
-                      "name": "Electromagnetics Fields",
-                      "course_code": 100308,
-                      "credits": 4,
-                      "type": "Theory",
-                      "syllabus": {
-                          "courseObjectives": [
-                              
-                          ],
-                          "learningOutcomes": [
-                              "Understand the basic law of Electromagnetism",
-                              "To obtain the electric and magnetic fields for simple configurations under static conditions",
-                              "Analyse time varying electric and magnetic fields.",
-                              "Understand Maxwell's equation in different forms and different media."
-                          ],
-                          "courseContent":"## **Module 1: Review of Vector Calculus (6 Hours)**  \nVector algebra - addition, subtraction, components of vectors, scalar and vector multiplications, triple products, three orthogonal coordinate systems (rectangular, cylindrical, and spherical). Vector calculus - differentiation, partial differentiation, integration, vector operator del, gradient, divergence, and curl; integral theorems of vectors. Conversion of a vector from one coordinate system to another.\n\n## **Module 2: Static Electric Field (6 Hours)**  \nCoulomb’s law, Electric field intensity, Electrical field due to point charges. Line, Surface, and Volume charge distributions. Gauss’s law and its applications. Absolute Electric potential, Potential difference, Calculation of potential differences for different configurations. Electric dipole, Electrostatic Energy and Energy density.\n\n## **Module 3: Conductors, Dielectrics, and Capacitance (6 Hours)**  \nCurrent and current density, Ohm’s Law in Point form, Continuity of current, Boundary conditions of perfect dielectric materials. Permittivity of dielectric materials, Capacitance, Capacitance of a two-wire line, Poisson’s equation, Laplace’s equation, Solution of Laplace and Poisson’s equations, Application of Laplace’s and Poisson’s equations.\n\n## **Module 4: Static Magnetic Fields (6 Hours)**  \nBiot-Savart Law, Ampere’s Law, Magnetic flux and magnetic flux density, Scalar and Vector Magnetic potentials. Steady magnetic fields produced by current-carrying conductors.\n\n## **Module 5: Magnetic Forces, Materials, and Inductance (6 Hours)**  \nForce on a moving charge, Force on a differential current element, Force between differential current elements, Nature of magnetic materials, Magnetization and permeability, Magnetic boundary conditions, Magnetic circuits, Inductances, and Mutual inductances.\n\n## **Module 6: Time Varying Fields and Maxwell’s Equations (6 Hours)**  \nFaraday’s law for Electromagnetic induction, Displacement current, Point form of Maxwell’s equations, Integral form of Maxwell’s equations, Motional Electromotive forces, Boundary Conditions.\n\n## **Module 7: Electromagnetic Waves (6 Hours)**  \nDerivation of Wave Equation, Uniform Plane Waves, Maxwell’s equation in Phasor form, Wave equation in Phasor form, Plane waves in free space and in a homogeneous material. Wave equation for a conducting medium, Plane waves in lossy dielectrics, Propagation in good conductors, Skin effect, Poynting theorem.",
-
-                          "referenceBooks": [
-                              "M. N. O. Sadiku, Elements of Electromagnetics, Oxford University Press.",
-                              "W. H. Hayt and J. A. Buck, Engineering Electromagnetics, McGraw Hill.",
-                              "J. D. Kraus, Electromagnetics, McGraw Hill.",
-                              "D. K. Cheng, Field and Wave Electromagnetics, Pearson."
-                          ],
-                          "assessmentMethods": []
-                      
-                      }
-                  },
-                  {
-                      "name": "Engineering Mechanics",
-                      "course_code": 100310,
-                      "credits": 4,
-                      "type": "Theory",
-                      "syllabus": {
-                          "courseObjectives": [
-                              
-                          ],
-                          "learningOutcomes": [
-                              "Understand the concepts of coordinate systems.",
-                              "Analyse three-dimensional motion.",
-                              "Understand the concepts of rigid bodies.",
-                              "Analyse the free-body diagrams of different arrangements.",
-                              "Analyse torsional motion and bending moment."
-                          ],
-                          "courseContent":  "## **Module 1: Introduction to Vectors and Tensors and Coordinate Systems (5 Hours)**  \nIntroduction to vectors and tensors and coordinate systems; Vector and tensor algebra; Indical notation; Symmetric and anti-symmetric tensors; Eigenvalues and Principal axes.\n\n## **Module 2: Three-Dimensional Rotation (4 Hours)**  \nThree-dimensional rotation: Euler’s theorem, Axis-angle formulation and Euler angles; Coordinate transformation of vectors and tensors.\n\n## **Module 3: Kinematics of Rigid Body (6 Hours)**  \nDefinition and motion of a rigid body; Rigid bodies as coordinate systems; Angular velocity of a rigid body, and its rate of change; Distinction between two- and three-dimensional rotational motion; Integration of angular velocity to find orientation; Motion relative to a rotating rigid body; Five-term acceleration formula.\n\n## **Module 4: Kinetics of Rigid Bodies (5 Hours)**  \nAngular momentum about a point; Inertia tensor: Definition and computation; Principal moments and axes of inertia; Parallel and perpendicular axes theorems; Mass moment of inertia of symmetrical bodies, cylinder, sphere, cone, etc.; Area moment of inertia and Polar moment of inertia; Forces and moments; Newton-Euler’s laws of rigid body motion.\n\n## **Module 5: Free Body Diagram (1 Hour)**  \nFree body diagrams; Examples on modeling of typical supports and joints; Discussion on the kinematic and kinetic constraints they impose.\n\n## **Module 6: General Motion (9 Hours)**  \nExamples and problems; General planar motions; General 3-D motions; Free precession, Gyroscopes, Rolling coin.\n\n## **Module 7: Bending Moment (5 Hours)**  \nTransverse loading on beams; Shear force and bending moment in beams; Analysis of cantilevers, simply supported beams, and overhanging beams; Relationships between loading, shear force, and bending moment; Shear force and bending moment diagrams.\n\n## **Module 8: Torsional Motion (2 Hours)**  \nTorsion of circular shafts; Derivation of torsion equation; Stress and deformation in circular and hollow shafts.\n\n## **Module 9: Friction (3 Hours)**  \nConcept of Friction; Laws of Coulomb friction; Angle of Repose; Coefficient of friction.\n",
-
-
-                          "referenceBooks": [
-                              "J. L. Meriam and L. G. Kraige, Engineering Mechanics: Dynamics, Wiley, 2011.",
-                              "M. F. Beatty, Principles of Engineering Mechanics, Springer Science & Business Media, 1986."
-                          ],
-                          "assessmentMethods": []
-                      
-                      }
-                  }
-              ]
-          },
-          {
-              "id": 4,
-              "name": "Semester 4",
-              "subjectsCount": 6,
-              "credits": 22,
-              "subjects": [
-                {
-                  "name": "Biology for Engineers",
-                  "course_code": 100401,
-                  "credits": 3,
-                  "type": "Theory",
-                  "syllabus": {
-                    "courseObjectives": [],
-                    "learningOutcomes": [
-                      "Describe how biological observations of the 18th Century led to major discoveries.",
-                      "Convey that classification per se is not what biology is all about but highlight the underlying criteria, such as morphological, biochemical, and ecological aspects.",
-                      "Highlight the concepts of recessiveness and dominance during the passage of genetic material from parent to offspring.",
-                      "Convey that all forms of life have the same building blocks, yet their manifestations are as diverse as one can imagine.",
-                      "Classify enzymes and distinguish between different mechanisms of enzyme action.",
-                      "Identify DNA as a genetic material in the molecular basis of information transfer.",
-                      "Analyze biological processes at the reductionistic level.",
-                      "Apply thermodynamic principles to biological systems.",
-                      "Identify and classify microorganisms."
-                    ],
-                    "courseContent": "## **Module 1: Introduction (2 Hours)**  \nImportance of Biology as a scientific discipline; Fundamental differences between science and engineering; Observations in biology and their significance; Historical biological observations leading to major discoveries; Examples from Brownian motion and thermodynamics.\n\n## **Module 2: Classification (3 Hours)**  \nHierarchy of life forms; Principles of classification; Different criteria for classification such as cellular structure, metabolism, excretion, habitat, and taxonomy; Model organisms for biological studies (E.coli, S. cerevisiae, D. melanogaster, C. elegans, A. thaliana, M. musculus).\n\n## **Module 3: Genetics (4 Hours)**  \nMendel’s laws of inheritance; Concept of allele, gene mapping, and interactions; Meiosis and Mitosis in genetics; Dominance and recessiveness; Gene disorders and their implications; Complementation and suppression in genetics.\n\n## **Module 4: Biomolecules (4 Hours)**  \nMolecular basis of life; Structure and function of biomolecules; Sugars, starch, cellulose; Amino acids, proteins; Nucleotides, DNA, RNA; Lipids and their functional roles.\n\n## **Module 5: Enzymes (4 Hours)**  \nEnzyme catalysis; Mechanisms of enzymatic reactions; Enzyme classification and examples; Enzyme kinetics and biochemical parameters; RNA catalysis.\n\n## **Module 6: Information Transfer (4 Hours)**  \nGenetic coding and decoding; DNA structure hierarchy; Genetic code properties; Transcription and translation mechanisms; Complementation and recombination.\n\n## **Module 7: Macromolecular Analysis (5 Hours)**  \nProtein structure and function; Hierarchical organization of proteins; Functional roles of proteins as enzymes, transporters, receptors, and structural elements.\n\n## **Module 8: Metabolism (4 Hours)**  \nThermodynamics in biological systems; Exothermic and endothermic reactions; ATP as an energy currency; Glycolysis, Krebs cycle, and photosynthesis; Energy charge and cellular bioenergetics.\n\n## **Module 9: Microbiology (3 Hours)**  \nStudy of single-celled organisms; Species classification and microbial taxonomy; Microbial ecology; Growth kinetics; Sterilization and media compositions.\n",
-    
-                    "referenceBooks": [
-                      "N. A. Campbell, J. B. Reece, L. Urry, M. L. Cain, and S. A. Wasserman, 'Biology: A Global Approach', Pearson Education Ltd, 2014.",
-                      "E. E. Conn, P. K. Stumpf, G. Bruening, and R. H. Doi, 'Outlines of Biochemistry', John Wiley and Sons, 2009.",
-                      "D. L. Nelson and M. M. Cox, 'Principles of Biochemistry', W. H. Freeman and Company, 2012.",
-                      "G. S. Stent and R. Calendar, 'Molecular Genetics', Freeman and Company, 1978.",
-                      "L. M. Prescott, J. P. Harley, and C. A. Klein, 'Microbiology', McGraw Hill Higher Education, 2005."
-                    ],
-                    "assessmentMethods": []
-                  }
-                },
-                {
-                  "name": "Digital Electronics",
-                  "course_code": 100403,
-                  "credits": 3,
-                  "type": "Theory",
-                  "syllabus": {
-                    "courseObjectives": [],
-                    "learningOutcomes": [
-                      "Understand working of logic families and logic gates.",
-                      "Design and implement Combinational and Sequential logic circuits.",
-                      "Understand the process of Analog to Digital conversion and Digital to Analog conversion.",
-                      "Be able to use PLDs to implement the given logical problem."
-                    ],
-                    "courseContent": "## **Module 1: Fundamentals of Digital Systems and Logic Families (7 Hours)**  \nDigital signals, digital circuits, AND, OR, NOT, NAND, NOR, and Exclusive-OR operations; Boolean algebra, examples of logic gates, number systems (binary, signed binary, octal, hexadecimal); Binary arithmetic, one’s and two’s complement arithmetic; Codes, error detecting and correcting codes; Characteristics of digital ICs, digital logic families, TTL, Schottky TTL and CMOS logic, interfacing CMOS and TTL, Tri-state logic.\n\n## **Module 2: Combinational Digital Circuits (7 Hours)**  \nStandard representation for logic functions; K-map representation, simplification of logic functions using K-map, minimization of logic functions; Don’t care conditions; Multiplexer, Demultiplexer/Decoders, Adders, Subtractors, BCD arithmetic, carry look-ahead adder, serial adder, ALU, elementary ALU design; Popular MSI chips, digital comparator, parity checker/generator, code converters, priority encoders, decoders/drivers for display devices; Q-M method of function realization.\n\n## **Module 3: Sequential Circuits and Systems (7 Hours)**  \n1-bit memory, circuit properties of bistable latch, clocked SR flip-flop, J-K-T and D-type flip-flops, applications of flip-flops; Shift registers, applications of shift registers, serial-to-parallel converter, parallel-to-serial converter, ring counter, sequence generator; Ripple (asynchronous) counters, synchronous counters, counter design using flip-flops, special counter ICs; Asynchronous sequential circuits, applications of counters.\n\n## **Module 4: A/D and D/A Converters (7 Hours)**  \nDigital-to-analog converters: weighted resistor/converter, R-2R Ladder D/A converter, specifications for D/A converters, examples of D/A converter ICs, sample and hold circuit; Analog-to-digital converters: quantization and encoding, parallel comparator A/D converter, successive approximation A/D converter, counting A/D converter, dual slope A/D converter; A/D converter using voltage-to-frequency and voltage-to-time conversion; Specifications of A/D converters, examples of A/D converter ICs.\n\n## **Module 5: Semiconductor Memories and Programmable Logic Devices (7 Hours)**  \nMemory organization and operation, expanding memory size; Classification and characteristics of memories: sequential memory, read-only memory (ROM), read and write memory (RAM), content-addressable memory (CAM), charge-coupled device memory (CCD); Commonly used memory chips; ROM as a PLD, programmable logic array, programmable array logic, complex programmable logic devices (CPLDs), field-programmable gate array (FPGA).\n",
-                    "referenceBooks": [
-                      "R. P. Jain, 'Modern Digital Electronics', McGraw Hill Education, 2009.",
-                      "M. M. Mano, 'Digital Logic and Computer Design', Pearson Education India, 2016.",
-                      "A. Kumar, 'Fundamentals of Digital Circuits', Prentice Hall India, 2016."
-                    ],
-                    "assessmentMethods": []
-                  }
-                },
-                {
-                  "name": "Electrical and Electronics Measurements",
-                  "course_code": 103401,
-                  "credits": 3,
-                  "type": "Theory",
-                  "syllabus": {
-                    "courseObjectives": [],
-                    "learningOutcomes": [
-                      "Work on various instruments and equipment used for the measurement of various electrical engineering parameters.",
-                      "Analyze and solve a variety of problems and issues in the vast field of electrical measurements.",
-                      "Think in terms of innovative ideas to improve existing technology in the field of measurements in terms of accuracy, cost, durability, and user-friendliness."
-                    ],
-                    "courseContent": "## **Module 1: Measurement and Error (8 Hours)**  \nMeasurement and Error: Definition, Accuracy and Precision, Significant Figures, Types of Errors. Standards of Measurement: Classification of Standards, Electrical Standards, IEEE Standards. Types of measuring instruments: Ammeter and Voltmeter: Derivation for Deflecting Torque of PMMC, MI (attraction and repulsion types), Electro Dynamometer and Induction type Ammeters and Voltmeters. Energy meters and wattmeter: Construction, Theory, and Principle of operation of Electro-Dynamometer and Induction type wattmeter, compensation, creep, error, testing, Single Phase and Polyphase Induction type Watt-hour meters. Frequency Meters: Vibrating reed type, electrical resonance type, Power Factor Meters.\n\n## **Module 2: Measurement of Resistance, Inductance, and Capacitance (8 Hours)**  \nResistance: Measurement of Low Resistance by Kelvin’s Double Bridge, Measurement of Medium Resistance, Measurement of High Resistance, Measurement of Resistance of Insulating Materials, Portable Resistance Testing set (Megohmmeter), Measurement of Insulation Resistance when Power is ON, Measurement of Resistance of Earth Connections. Inductance: Measurement of Self-Inductance by Ammeter and Voltmeter, and AC Bridges (Maxwell’s, Hay’s, & Anderson Bridge), Measurement of Mutual Inductance by Felici’s Method, and as Self Inductance. Capacitance: Measurement of Capacitance by Ammeter and Voltmeter, and AC Bridges (Owen’s, Schering’s Bridge), Screening of Bridge Components and Wagner Earthing Device.\n\n## **Module 3: Galvanometer and Potentiometer (8 Hours)**  \nGalvanometer (5 Hours): Construction, Theory, and Principle of operation of D’Arsonval, Vibration (Moving Magnet & Moving Coil types), and Ballistic Galvanometer, Influence of Resistance on Damping, Logarithmic decrement, Calibration of Galvanometers, Galvanometer Constants, Measurement of Flux and Magnetic Field using Galvanometers. Potentiometer: Construction, Theory, and Principle of operation of DC Potentiometers (Crompton, Vernier, Constant Resistance, & Deflection Potentiometer), and AC Potentiometers (Drysdale-Tinsley & Gall-Tinsley Potentiometer).\n\n## **Module 4: Current Transformers, Potential Transformers, and Oscilloscope (8 Hours)**  \nCurrent Transformer and Potential Transformer (3 Hours): Construction, Theory, Characteristics, and Testing of CTs and PTs. Electronic Instruments for Measuring Basic Parameters (2 Hours): Amplified DC Meters, AC Voltmeters using Rectifiers. True RMS Voltmeter, Considerations for choosing an Analog Voltmeter, Digital Voltmeters (Block Diagrams only), Q-meter. Oscilloscope (3 Hours): Block Diagrams, Delay Line, Multiple Trace, Oscilloscope Probes, Oscilloscope Techniques, Introduction to Analog and Digital Storage Oscilloscopes, Measurement of Frequency, Phase Angle, and Time Delay using Oscilloscope.\n",
-                    "referenceBooks": [
-                      "Electrical Measurements and Measuring Instruments – Golding & Widdis – 5th Edition, Reem Publication.",
-                      "Modern Electronic Instrumentation and Measurement Techniques – Helfrick & Cooper – Pearson Education.",
-                      "A Course in Electrical and Electronic Measurements and Instrumentation – A K Sawhney – Dhanpat Rai & Co.",
-                      "Electronic Instrumentation – H C Kalsi – 2nd Edition, Tata McGraw Hill.",
-                      "Electronic Measurement and Instrumentation – Oliver & Cage – Tata McGraw Hill."
-                    ],
-                    "assessmentMethods": []
-                  }
-                },
-                {
-                  "name": "Electrical Machines- 2",
-                  "course_code": 103402,
-                  "credits": 3,
-                  "type": "Theory",
-                  "syllabus": {
-                    "courseObjectives": [],
-                    "learningOutcomes": [
-                      "Understand the concepts of rotating magnetic fields.",
-                      "Understand the operation of AC machines.",
-                      "Analyse performance characteristics of AC machines."
-                    ],
-                    "courseContent": "## **Module 1: Measurement and Error (8 Hours)**\nMeasurement and Error: Definition, Accuracy and Precision, Significant Figures, Types of Errors. Standards of Measurement: Classification of Standards, Electrical Standards, IEEE Standards. Types of measuring instruments: Ammeter and Voltmeter: Derivation for Deflecting Torque of PMMC, MI (attraction and repulsion types), Electro Dynamometer and Induction type Ammeters and Voltmeters. Energy meters and wattmeter: Construction, Theory, and Principle of operation of Electro-Dynamometer and Induction type wattmeter, compensation, creep, error, testing, Single Phase and Polyphase Induction type Watt-hour meters. Frequency Meters: Vibrating reed type, electrical resonance type, Power Factor Meters.\n\n## **Module 2: Measurement of Resistance, Inductance, and Capacitance (8 Hours)**\nResistance: Measurement of Low Resistance by Kelvin’s Double Bridge, Measurement of Medium Resistance, Measurement of High Resistance, Measurement of Resistance of Insulating Materials, Portable Resistance Testing set (Megohmmeter), Measurement of Insulation Resistance when Power is ON, Measurement of Resistance of Earth Connections. Inductance: Measurement of Self-Inductance by Ammeter and Voltmeter, and AC Bridges (Maxwell’s, Hay’s, & Anderson Bridge), Measurement of Mutual Inductance by Felici’s Method, and as Self Inductance. Capacitance: Measurement of Capacitance by Ammeter and Voltmeter, and AC Bridges (Owen’s, Schering’s Bridge), Screening of Bridge Components and Wagner Earthing Device.\n\n## **Module 3: Galvanometer and Potentiometer (8 Hours)**\nGalvanometer (5 Hours): Construction, Theory, and Principle of operation of D’Arsonval, Vibration (Moving Magnet & Moving Coil types), and Ballistic Galvanometer, Influence of Resistance on Damping, Logarithmic decrement, Calibration of Galvanometers, Galvanometer Constants, Measurement of Flux and Magnetic Field using Galvanometers. Potentiometer: Construction, Theory, and Principle of operation of DC Potentiometers (Crompton, Vernier, Constant Resistance, & Deflection Potentiometer), and AC Potentiometers (Drysdale-Tinsley & Gall-Tinsley Potentiometer).\n\n## **Module 4: Current Transformers, Potential Transformers, and Oscilloscope (8 Hours)**\nCurrent Transformer and Potential Transformer (3 Hours): Construction, Theory, Characteristics, and Testing of CTs and PTs. Electronic Instruments for Measuring Basic Parameters (2 Hours): Amplified DC Meters, AC Voltmeters using Rectifiers. True RMS Voltmeter, Considerations for choosing an Analog Voltmeter, Digital Voltmeters (Block Diagrams only), Q-meter. Oscilloscope (3 Hours): Block Diagrams, Delay Line, Multiple Trace, Oscilloscope Probes, Oscilloscope Techniques, Introduction to Analog and Digital Storage Oscilloscopes, Measurement of Frequency, Phase Angle, and Time Delay using Oscilloscope.",
-    
-                    "referenceBooks": [
-                      "A. E. Fitzgerald and C. Kingsley, 'Electric Machinery', McGraw Hill Education, 2013.",
-                      "M. G. Say, 'Performance and design of AC machines', CBS Publishers, 2002.",
-                      "P. S. Bimbhra, 'Electrical Machinery', Khanna Publishers, 2011.",
-                      "I. J. Nagrath and D. P. Kothari, 'Electric Machines', McGraw Hill Education, 2010.",
-                      "A. S. Langsdorf, 'Alternating current machines', McGraw Hill Education, 1984.",
-                      "P. C. Sen, 'Principles of Electric Machines and Power Electronics', John Wiley & Sons, 2007."
-                    ],
-                    "assessmentMethods": []
-                  }
-                },
-                {
-                  "name": "Mathematics - 3 (Probability and Statstics)",
-                  "course_code": 103403,
-                  "credits": 4,
-                  "type": "Theory",
-                  "syllabus": {
-                    "courseObjectives": [],
-                    "learningOutcomes": [
-                      "Understand the fundamental concepts of probability, including probability spaces, conditional probability, and independence.",
-                      "Analyze discrete and continuous probability distributions and their properties.",
-                      "Apply concepts of bivariate distributions, including sums and quotients, conditional densities, and Bayes' rule.",
-                      "Calculate measures of central tendency, moments, skewness, kurtosis, and statistical parameters for different probability distributions.",
-                      "Perform curve fitting using the method of least squares and conduct hypothesis testing for large and small samples.",
-                      "Use statistical tests such as chi-square for goodness of fit and independence of attributes."
-                    ],
-                    "courseContent": "## **Module 1: Basic Probability (12 hours)**\nProbability spaces, conditional probability, independence; Discrete random variables, Independent random variables, the multinomial distribution, Poisson approximation to the binomial distribution, infinite sequences of Bernoulli trials, sums of independent random variables; Expectation of Discrete Random Variables, Moments, Variance of a sum, Correlation coefficient, Chebyshev’s Inequality.\n\n## **Module 2: Continuous Probability Distributions (4 hours)**\nContinuous random variables and their properties, distribution functions and densities, normal, exponential and gamma densities.\n\n## **Module 3: Bivariate Distributions (4 hours)**\nBivariate distributions and their properties, distribution of sums and quotients, conditional densities, Bayes' rule.\n\n## **Module 4: Basic Statistics (8 hours)**\nMeasures of Central tendency: Moments, skewness and Kurtosis - Probability distributions: Binomial, Poisson and Normal - evaluation of statistical parameters for these three distributions, Correlation and regression – Rank correlation.\n\n## **Module 5: Applied Statistics (8 hours)**\nCurve fitting by the method of least squares- fitting of straight lines, second degree parabolas and more general curves. Test of significance: Large sample test for single proportion, difference of proportions, single mean, difference of means, and difference of standard deviations.\n\n## **Module 6: Small samples (4 hours)**\nTest for single mean, difference of means and correlation coefficients, test for ratio of variances - Chisquare test for goodness of fit and independence of attributes.",
-    
-                    "referenceBooks": [
-                      "E. Kreyszig, 'Advanced Engineering Mathematics', John Wiley & Sons, 2006.",
-                      "P. G. Hoel, S. C. Port and C. J. Stone, 'Introduction to Probability Theory', Universal Book Stall, 2003.",
-                      "S. Ross, 'A First Course in Probability', Pearson Education India, 2002.",
-                      "W. Feller, 'An Introduction to Probability Theory and its Applications', Vol. 1, Wiley, 1968.",
-                      "N. P. Bali and M. Goyal, 'A Textbook of Engineering Mathematics', Laxmi Publications, 2010.",
-                      "B. S. Grewal, 'Higher Engineering Mathematics', Khanna Publishers, 2000.",
-                      "T. Veerarajan, 'Engineering Mathematics', Tata McGraw-Hill, New Delhi, 2010."
-                    ],
-                    "assessmentMethods": []
-                  }
-                },
-                {
-                  "name": "Signals and Systems",
-                  "course_code": 103404,
-                  "credits": 3,
-                  "type": "Theory",
-                  "syllabus": {
-                    "courseObjectives": [],
-                    "learningOutcomes": [
-                        "Understand the concepts of continuous time and discrete time systems.",
-                        "Analyze systems in the complex frequency domain.",
-                        "Understand the sampling theorem and its implications."
-                      ],
-                      "courseContent": "## **Module 1: Introduction to Signals and Systems (3 hours)**\nSignals and systems as seen in everyday life, and in various branches of engineering and science. Signal properties: periodicity, absolute integrability, determinism, and stochastic character. Some special signals of importance: the unit step, the unit impulse, the sinusoid, the complex exponential, some special time-limited signals; continuous and discrete-time signals, continuous and discrete amplitude signals. System properties: linearity: additivity and homogeneity, shift invariance, causality, stability, realizability. Examples.\n\n## **Module 2: Behavior of Continuous and Discrete-time LTI Systems (8 hours)**\nImpulse response and step response, convolution, input-output behavior with periodic convergent inputs, cascade interconnections. Characterization of causality and stability of LTI systems. System representation through differential equations and difference equations. State-space representation of systems. State-space analysis, multi-input, multi-output representation. State transition matrix and its role. Periodic inputs to an LTI system, the notion of a frequency response, and its relation to the impulse response.\n\n## **Module 3: Fourier, Laplace, and z-Transforms (10 hours)**\nFourier series representation of periodic signals, waveform symmetries, calculation of Fourier coefficients. Fourier Transform, convolution/multiplication, and their effect in the frequency domain, magnitude and phase response, Fourier domain duality. The Discrete-Time Fourier Transform (DTFT) and the Discrete Fourier Transform (DFT). Parseval's theorem. Review of the Laplace Transform for continuous time signals and systems, system functions, poles, and zeros of system functions and signals, Laplace domain analysis, solution to differential equations and system behavior. The z-Transform for discrete-time signals and systems, system functions, poles, and zeros of systems and sequences, z-domain analysis.\n\n## **Module 4: Sampling and Reconstruction (4 hours)**\nThe Sampling Theorem and its implications. Spectra of sampled signals. Reconstruction: ideal interpolator, zero-order hold, first-order hold. Aliasing and its effects. Relation between continuous and discrete-time systems. Introduction to the applications of signal and system theory: modulation for communication, filtering, feedback control systems.",
-                      "referenceBooks": [
-                        "A. V. Oppenheim, A. S. Willsky, S. H. Nawab, 'Signals and Systems', Prentice Hall India, 1997.",
-                        "J. G. Proakis, D. G. Manolakis, 'Digital Signal Processing: Principles, Algorithms, and Applications', Pearson, 2006.",
-                        "H. P. Hsu, 'Signals and Systems', Schaum’s Series, McGraw Hill Education, 2010.",
-                        "S. Haykin, B. V. Veen, 'Signals and Systems', John Wiley and Sons, 2007.",
-                        "A. V. Oppenheim, R. W. Schafer, 'Discrete-Time Signal Processing', Prentice Hall, 2009.",
-                        "M. J. Robert, 'Fundamentals of Signals and Systems', McGraw Hill Education, 2007.",
-                        "B. P. Lathi, 'Linear Systems and Signals', Oxford University Press, 2009."
-                      ],
-                    "assessmentMethods": []
-                  }
-                }
-              ]
-          }
-         
+        {
+          "id": 3,
+          "name": "Semester 3",
+          "subjectsCount": 5,
+          "credits": 26,
+          "subjects": [
+            {
+              "name": "Electrical Circuit Analysis",
+              "course_code": 100306,
+              "credits": 4,
+              "type": "Theory",
+              "syllabus": {
+                "courseObjectives": [],
+                "learningOutcomes": [
+                  "Apply Network Theorem for analysis of electrical circuits",
+                  "Obtain the transient and steady-state response of electrical circuits",
+                  "Analyze circuits in the Sinusoidal steady-state (Single-phase and three-phase)"
+                ],
+                "courseContent": "## **Module 1: Network Theorems (10 Hours)**  \nSuperposition theorem, Thevenin theorem, Norton theorem; Maximum power transfer theorem, Reciprocity theorem, Compensation theorem; Analysis with dependent current and voltage sources; Node and Mesh Analysis; Concept of duality and dual networks.\n\n## **Module 2: Solution of First and Second Order Networks (8 Hours)**  \nSolution of first and second order differential equations for series and parallel R-L, R-C, R-L-C circuits; Initial and final conditions in network elements; Forced and free response, time constants; Steady-state and transient state response.\n\n## **Module 3: Sinusoidal Steady State Analysis (8 Hours)**  \nRepresentation of sine function as a rotating phasor; Phasor diagrams, impedances and admittances; AC circuit analysis, effective or RMS values, average power and complex power; Three-phase circuits, mutual coupled circuits; Dot convention in coupled circuits, ideal transformer.\n\n## **Module 4: Electrical Circuit Analysis Using Laplace Transforms (8 Hours)**  \nReview of Laplace Transform; Analysis of electrical circuits using Laplace Transform for standard inputs; Convolution integral, inverse Laplace transform; Transformed network with initial conditions; Transfer function representation, Poles and Zeros; Frequency response (magnitude and phase plots), series and parallel resonances.\n\n## **Module 5: Two Port Network and Network Functions (6 Hours)**  \nTwo port networks, terminal pairs; Relationship of two port variables; Impedance parameters, admittance parameters; Transmission parameters and hybrid parameters; Interconnections of two port networks.",
+                "referenceBooks": [
+                  "M. E. Van Valkenburg, Network Analysis, Prentice Hall, 2006.",
+                  "D. Roy Choudhury, Networks and Systems, New Age International Publications, 1998.",
+                  "W. H. Hayt and J. E. Kemmerly, Engineering Circuit Analysis, McGraw Hill Education, 2013.",
+                  "C. K. Alexander and M. N. O. Sadiku, Electric Circuits, McGraw Hill Education, 2004."
+                ],
+                "assessmentMethods": []
+              }
+            },
+            {
+              "name": "Analog Electronics Circuits",
+              "course_code": 100302,
+              "credits": 3,
+              "type": "Theory",
+              "syllabus": {
+                "courseObjectives": [],
+                "learningOutcomes": [
+                  "Understand the characteristics of Transistors",
+                  "Design and analyse various rectifier and amplifier circuits",
+                  "Design sinusoidal and non-sinusoidal oscillators",
+                  "Understand the functioning of OP-AMP and  design OP-AMP based circuits"
+                ],
+                "courseContent": "## **Module 1: Diode circuits (4 Hours)**  \nP-N junction diode, I-V characteristics of a diode; review of half-wave and full-wave rectifiers, Zener diodes, clamping and clipping circuits.\n\n## **Module 2: BJT circuits (8 Hours)**  \nStructure and I-V characteristics of a BJT; BJT as a switch. BJT as an amplifier: small-signal model, biasing circuits, current mirror; common-emitter, common-base and common-collector amplifiers; Small signal equivalent circuits, high-frequency equivalent circuits.\n\n## **Module 3: MOSFET circuits (8 Hours)**  \nMOSFET structure and I-V characteristics. MOSFET as a switch. MOSFET as an amplifier: small-signal model and biasing circuits, common-source, common-gate and common-drain amplifiers; small signal equivalent circuits - gain, input and output impedances, trans-conductance, high-frequency equivalent circuit.\n\n## **Module 4: Differential, multi-stage and operational amplifiers (8 Hours)**  \nDifferential amplifier; power amplifier; direct coupled multi-stage amplifier; internal structure of an operational amplifier, ideal op-amp, non-idealities in an op-amp (Output offset voltage, input bias current, input offset current, slew rate, gain bandwidth product).\n\n## **Module 5: Linear applications of op-amp (8 Hours)**  \nIdealized analysis of op-amp circuits. Inverting and non-inverting amplifier, differential amplifier, instrumentation amplifier, integrator, active filter, P PI and PID controllers and lead/lag compensator using an op-amp, voltage regulator, oscillators (Wein bridge and phase shift).\n\n## **Module 6: Nonlinear applications of op-amp (6 Hours)**  \nHysteretic Comparator, Zero Crossing Detector, Square-wave and triangular-wave generators. Precision rectifier, peak detector, Monoshot.\n\n## **Analog to Digital Conversion.**",
+                "referenceBooks": [
+                  "A. S. Sedra and K. C. Smith, Microelectronic Circuits, Oxford University Press, 1998.",
+                  "J. V. Wait, L. P. Huelsman and G. A. Korn, Introduction to Operational Amplifier theory and applications,                             McGraw Hill U. S., 1992.",
+                  "J. Millman and A. Grabel, Microelectronics, McGraw Hill Education, 1988.",
+                  "P. Horowitz and W. Hill, The Art of Electronics, Cambridge University Press, 1989."
+                ],
+                "assessmentMethods": []
+              }
+            },
+            {
+              "name": "Electrical Machines - 1",
+              "course_code": 100307,
+              "credits": 4,
+              "type": "Theory",
+              "syllabus": {
+                "courseObjectives": [],
+                "learningOutcomes": [
+                  "Understand the concept of magnetic circuits",
+                  "Understand operation of DC machines",
+                  "Understand the difference operation of different DC machine configuration",
+                  "Understand the single phase and three phase transformers circuits"
+                ],
+                "courseContent": "## **Module 1: Magnetic Fields and Magnetic Circuits (6 Hours)**  \nReview of magnetic circuits - MMF, flux, reluctance, inductance; review of Ampere Law and Biot-Savart Law; Visualization of magnetic fields produced by a bar magnet and a current-carrying coil - through air and through a combination of iron and air; Influence of highly permeable materials on the magnetic flux lines.\n\n## **Module 2: Electromagnetic Force and Torque (9 Hours)**  \nB-H curve of magnetic materials; Flux-linkage vs current characteristic of magnetic circuits; Linear and nonlinear magnetic circuits; Energy stored in the magnetic circuit; Force as a partial derivative of stored energy with respect to the position of a moving element; Torque as a partial derivative of stored energy with respect to the angular position of a rotating element. Examples - Galvanometer coil, relay contact, lifting magnet, rotating element with eccentricity or saliency.\n\n## **Module 3: Transformers (12 Hours)**  \nPrinciple, construction, and operation of single-phase transformers, equivalent circuit, phasor diagram, voltage regulation, losses, and efficiency. Testing - Open circuit and short circuit tests, polarity test, back-to-back test, separation of hysteresis and eddy current losses. Three-phase transformer - construction, types of connection, and their comparative features. Parallel operation of single-phase and three-phase transformers. Autotransformers - Construction, principle, applications, and comparison with two winding transformers. Magnetizing current, effect of nonlinear B-H curve of magnetic core material, harmonics in magnetization current. Phase conversion - Scott connection, three-phase to six-phase conversion. Tap-changing transformers - No-load and on-load tap-changing of transformers. Three-winding transformers. Cooling of transformers.\n\n## **Module 4: DC Machines (8 Hours)**  \nBasic construction of a DC machine, magnetic structure - stator yoke, stator poles, pole-faces or shoes, air gap, and armature core. Visualization of magnetic field produced by the field winding excitation with armature winding open, air gap flux density distribution, flux per pole, induced EMF in an armature coil. Armature winding and commutation - Elementary armature winding, the coil and commutator, lap and wave windings, construction of the commutator, linear commutation. Derivation of back EMF equation, armature MMF wave, derivation of torque equation, armature reaction, air gap flux density distribution with armature reaction.\n\n## **Module 5: DC Machine - Motoring and Generation (7 Hours)**  \nArmature circuit equation for motoring and generation. Types of field excitations - separately excited, shunt, and series. Open circuit characteristics of separately excited DC generator, back EMF with armature reaction, voltage build-up in a shunt generator, critical field resistance, and critical speed. V-I characteristics and torque-speed characteristics of separately excited, shunt, and series motors. Speed control through armature voltage. Losses, load testing, and back-to-back testing of DC machines.",
+                "referenceBooks": [
+                  "P. S. Bimbhra, Electrical Machinery, Khanna Publishers.",
+                  "J. B. Gupta, Theory and Performance of Electrical Machines, S. K. Kataria & Sons.",
+                  "A. E. Fitzgerald, C. Kingsley, and S. D. Umans, Electric Machinery, McGraw Hill.",
+                  "M. G. Say, Performance and Design of AC Machines, Pitman & Sons."
+                ],
+                "assessmentMethods": []
+              }
+            },
+            {
+              "name": "Electromagnetics Fields",
+              "course_code": 100308,
+              "credits": 4,
+              "type": "Theory",
+              "syllabus": {
+                "courseObjectives": [],
+                "learningOutcomes": [
+                  "Understand the basic law of Electromagnetism",
+                  "To obtain the electric and magnetic fields for simple configurations under static conditions",
+                  "Analyse time varying electric and magnetic fields.",
+                  "Understand Maxwell's equation in different forms and different media."
+                ],
+                "courseContent": "## **Module 1: Review of Vector Calculus (6 Hours)**  \nVector algebra - addition, subtraction, components of vectors, scalar and vector multiplications, triple products, three orthogonal coordinate systems (rectangular, cylindrical, and spherical). Vector calculus - differentiation, partial differentiation, integration, vector operator del, gradient, divergence, and curl; integral theorems of vectors. Conversion of a vector from one coordinate system to another.\n\n## **Module 2: Static Electric Field (6 Hours)**  \nCoulomb’s law, Electric field intensity, Electrical field due to point charges. Line, Surface, and Volume charge distributions. Gauss’s law and its applications. Absolute Electric potential, Potential difference, Calculation of potential differences for different configurations. Electric dipole, Electrostatic Energy and Energy density.\n\n## **Module 3: Conductors, Dielectrics, and Capacitance (6 Hours)**  \nCurrent and current density, Ohm’s Law in Point form, Continuity of current, Boundary conditions of perfect dielectric materials. Permittivity of dielectric materials, Capacitance, Capacitance of a two-wire line, Poisson’s equation, Laplace’s equation, Solution of Laplace and Poisson’s equations, Application of Laplace’s and Poisson’s equations.\n\n## **Module 4: Static Magnetic Fields (6 Hours)**  \nBiot-Savart Law, Ampere’s Law, Magnetic flux and magnetic flux density, Scalar and Vector Magnetic potentials. Steady magnetic fields produced by current-carrying conductors.\n\n## **Module 5: Magnetic Forces, Materials, and Inductance (6 Hours)**  \nForce on a moving charge, Force on a differential current element, Force between differential current elements, Nature of magnetic materials, Magnetization and permeability, Magnetic boundary conditions, Magnetic circuits, Inductances, and Mutual inductances.\n\n## **Module 6: Time Varying Fields and Maxwell’s Equations (6 Hours)**  \nFaraday’s law for Electromagnetic induction, Displacement current, Point form of Maxwell’s equations, Integral form of Maxwell’s equations, Motional Electromotive forces, Boundary Conditions.\n\n## **Module 7: Electromagnetic Waves (6 Hours)**  \nDerivation of Wave Equation, Uniform Plane Waves, Maxwell’s equation in Phasor form, Wave equation in Phasor form, Plane waves in free space and in a homogeneous material. Wave equation for a conducting medium, Plane waves in lossy dielectrics, Propagation in good conductors, Skin effect, Poynting theorem.",
+                "referenceBooks": [
+                  "M. N. O. Sadiku, Elements of Electromagnetics, Oxford University Press.",
+                  "W. H. Hayt and J. A. Buck, Engineering Electromagnetics, McGraw Hill.",
+                  "J. D. Kraus, Electromagnetics, McGraw Hill.",
+                  "D. K. Cheng, Field and Wave Electromagnetics, Pearson."
+                ],
+                "assessmentMethods": []
+              }
+            },
+            {
+              "name": "Engineering Mechanics",
+              "course_code": 100310,
+              "credits": 4,
+              "type": "Theory",
+              "syllabus": {
+                "courseObjectives": [],
+                "learningOutcomes": [
+                  "Understand the concepts of coordinate systems.",
+                  "Analyse three-dimensional motion.",
+                  "Understand the concepts of rigid bodies.",
+                  "Analyse the free-body diagrams of different arrangements.",
+                  "Analyse torsional motion and bending moment."
+                ],
+                "courseContent": "## **Module 1: Introduction to Vectors and Tensors and Coordinate Systems (5 Hours)**  \nIntroduction to vectors and tensors and coordinate systems; Vector and tensor algebra; Indical notation; Symmetric and anti-symmetric tensors; Eigenvalues and Principal axes.\n\n## **Module 2: Three-Dimensional Rotation (4 Hours)**  \nThree-dimensional rotation: Euler’s theorem, Axis-angle formulation and Euler angles; Coordinate transformation of vectors and tensors.\n\n## **Module 3: Kinematics of Rigid Body (6 Hours)**  \nDefinition and motion of a rigid body; Rigid bodies as coordinate systems; Angular velocity of a rigid body, and its rate of change; Distinction between two- and three-dimensional rotational motion; Integration of angular velocity to find orientation; Motion relative to a rotating rigid body; Five-term acceleration formula.\n\n## **Module 4: Kinetics of Rigid Bodies (5 Hours)**  \nAngular momentum about a point; Inertia tensor: Definition and computation; Principal moments and axes of inertia; Parallel and perpendicular axes theorems; Mass moment of inertia of symmetrical bodies, cylinder, sphere, cone, etc.; Area moment of inertia and Polar moment of inertia; Forces and moments; Newton-Euler’s laws of rigid body motion.\n\n## **Module 5: Free Body Diagram (1 Hour)**  \nFree body diagrams; Examples on modeling of typical supports and joints; Discussion on the kinematic and kinetic constraints they impose.\n\n## **Module 6: General Motion (9 Hours)**  \nExamples and problems; General planar motions; General 3-D motions; Free precession, Gyroscopes, Rolling coin.\n\n## **Module 7: Bending Moment (5 Hours)**  \nTransverse loading on beams; Shear force and bending moment in beams; Analysis of cantilevers, simply supported beams, and overhanging beams; Relationships between loading, shear force, and bending moment; Shear force and bending moment diagrams.\n\n## **Module 8: Torsional Motion (2 Hours)**  \nTorsion of circular shafts; Derivation of torsion equation; Stress and deformation in circular and hollow shafts.\n\n## **Module 9: Friction (3 Hours)**  \nConcept of Friction; Laws of Coulomb friction; Angle of Repose; Coefficient of friction.\n",
+                "referenceBooks": [
+                  "J. L. Meriam and L. G. Kraige, Engineering Mechanics: Dynamics, Wiley, 2011.",
+                  "M. F. Beatty, Principles of Engineering Mechanics, Springer Science & Business Media, 1986."
+                ],
+                "assessmentMethods": []
+              }
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Semester 4",
+          "subjectsCount": 6,
+          "credits": 22,
+          "subjects": [
+            {
+              "name": "Biology for Engineers",
+              "course_code": 100401,
+              "credits": 3,
+              "type": "Theory",
+              "syllabus": {
+                "courseObjectives": [],
+                "learningOutcomes": [
+                  "Describe how biological observations of the 18th Century led to major discoveries.",
+                  "Convey that classification per se is not what biology is all about but highlight the underlying criteria, such as morphological, biochemical, and ecological aspects.",
+                  "Highlight the concepts of recessiveness and dominance during the passage of genetic material from parent to offspring.",
+                  "Convey that all forms of life have the same building blocks, yet their manifestations are as diverse as one can imagine.",
+                  "Classify enzymes and distinguish between different mechanisms of enzyme action.",
+                  "Identify DNA as a genetic material in the molecular basis of information transfer.",
+                  "Analyze biological processes at the reductionistic level.",
+                  "Apply thermodynamic principles to biological systems.",
+                  "Identify and classify microorganisms."
+                ],
+                "courseContent": "## **Module 1: Introduction (2 Hours)**  \nImportance of Biology as a scientific discipline; Fundamental differences between science and engineering; Observations in biology and their significance; Historical biological observations leading to major discoveries; Examples from Brownian motion and thermodynamics.\n\n## **Module 2: Classification (3 Hours)**  \nHierarchy of life forms; Principles of classification; Different criteria for classification such as cellular structure, metabolism, excretion, habitat, and taxonomy; Model organisms for biological studies (E.coli, S. cerevisiae, D. melanogaster, C. elegans, A. thaliana, M. musculus).\n\n## **Module 3: Genetics (4 Hours)**  \nMendel’s laws of inheritance; Concept of allele, gene mapping, and interactions; Meiosis and Mitosis in genetics; Dominance and recessiveness; Gene disorders and their implications; Complementation and suppression in genetics.\n\n## **Module 4: Biomolecules (4 Hours)**  \nMolecular basis of life; Structure and function of biomolecules; Sugars, starch, cellulose; Amino acids, proteins; Nucleotides, DNA, RNA; Lipids and their functional roles.\n\n## **Module 5: Enzymes (4 Hours)**  \nEnzyme catalysis; Mechanisms of enzymatic reactions; Enzyme classification and examples; Enzyme kinetics and biochemical parameters; RNA catalysis.\n\n## **Module 6: Information Transfer (4 Hours)**  \nGenetic coding and decoding; DNA structure hierarchy; Genetic code properties; Transcription and translation mechanisms; Complementation and recombination.\n\n## **Module 7: Macromolecular Analysis (5 Hours)**  \nProtein structure and function; Hierarchical organization of proteins; Functional roles of proteins as enzymes, transporters, receptors, and structural elements.\n\n## **Module 8: Metabolism (4 Hours)**  \nThermodynamics in biological systems; Exothermic and endothermic reactions; ATP as an energy currency; Glycolysis, Krebs cycle, and photosynthesis; Energy charge and cellular bioenergetics.\n\n## **Module 9: Microbiology (3 Hours)**  \nStudy of single-celled organisms; Species classification and microbial taxonomy; Microbial ecology; Growth kinetics; Sterilization and media compositions.\n",
+                "referenceBooks": [
+                  "N. A. Campbell, J. B. Reece, L. Urry, M. L. Cain, and S. A. Wasserman, 'Biology: A Global Approach', Pearson Education Ltd, 2014.",
+                  "E. E. Conn, P. K. Stumpf, G. Bruening, and R. H. Doi, 'Outlines of Biochemistry', John Wiley and Sons, 2009.",
+                  "D. L. Nelson and M. M. Cox, 'Principles of Biochemistry', W. H. Freeman and Company, 2012.",
+                  "G. S. Stent and R. Calendar, 'Molecular Genetics', Freeman and Company, 1978.",
+                  "L. M. Prescott, J. P. Harley, and C. A. Klein, 'Microbiology', McGraw Hill Higher Education, 2005."
+                ],
+                "assessmentMethods": []
+              }
+            },
+            {
+              "name": "Digital Electronics",
+              "course_code": 100403,
+              "credits": 3,
+              "type": "Theory",
+              "syllabus": {
+                "courseObjectives": [],
+                "learningOutcomes": [
+                  "Understand working of logic families and logic gates.",
+                  "Design and implement Combinational and Sequential logic circuits.",
+                  "Understand the process of Analog to Digital conversion and Digital to Analog conversion.",
+                  "Be able to use PLDs to implement the given logical problem."
+                ],
+                "courseContent": "## **Module 1: Fundamentals of Digital Systems and Logic Families (7 Hours)**  \nDigital signals, digital circuits, AND, OR, NOT, NAND, NOR, and Exclusive-OR operations; Boolean algebra, examples of logic gates, number systems (binary, signed binary, octal, hexadecimal); Binary arithmetic, one’s and two’s complement arithmetic; Codes, error detecting and correcting codes; Characteristics of digital ICs, digital logic families, TTL, Schottky TTL and CMOS logic, interfacing CMOS and TTL, Tri-state logic.\n\n## **Module 2: Combinational Digital Circuits (7 Hours)**  \nStandard representation for logic functions; K-map representation, simplification of logic functions using K-map, minimization of logic functions; Don’t care conditions; Multiplexer, Demultiplexer/Decoders, Adders, Subtractors, BCD arithmetic, carry look-ahead adder, serial adder, ALU, elementary ALU design; Popular MSI chips, digital comparator, parity checker/generator, code converters, priority encoders, decoders/drivers for display devices; Q-M method of function realization.\n\n## **Module 3: Sequential Circuits and Systems (7 Hours)**  \n1-bit memory, circuit properties of bistable latch, clocked SR flip-flop, J-K-T and D-type flip-flops, applications of flip-flops; Shift registers, applications of shift registers, serial-to-parallel converter, parallel-to-serial converter, ring counter, sequence generator; Ripple (asynchronous) counters, synchronous counters, counter design using flip-flops, special counter ICs; Asynchronous sequential circuits, applications of counters.\n\n## **Module 4: A/D and D/A Converters (7 Hours)**  \nDigital-to-analog converters: weighted resistor/converter, R-2R Ladder D/A converter, specifications for D/A converters, examples of D/A converter ICs, sample and hold circuit; Analog-to-digital converters: quantization and encoding, parallel comparator A/D converter, successive approximation A/D converter, counting A/D converter, dual slope A/D converter; A/D converter using voltage-to-frequency and voltage-to-time conversion; Specifications of A/D converters, examples of A/D converter ICs.\n\n## **Module 5: Semiconductor Memories and Programmable Logic Devices (7 Hours)**  \nMemory organization and operation, expanding memory size; Classification and characteristics of memories: sequential memory, read-only memory (ROM), read and write memory (RAM), content-addressable memory (CAM), charge-coupled device memory (CCD); Commonly used memory chips; ROM as a PLD, programmable logic array, programmable array logic, complex programmable logic devices (CPLDs), field-programmable gate array (FPGA).\n",
+                "referenceBooks": [
+                  "R. P. Jain, 'Modern Digital Electronics', McGraw Hill Education, 2009.",
+                  "M. M. Mano, 'Digital Logic and Computer Design', Pearson Education India, 2016.",
+                  "A. Kumar, 'Fundamentals of Digital Circuits', Prentice Hall India, 2016."
+                ],
+                "assessmentMethods": []
+              }
+            },
+            {
+              "name": "Electrical and Electronics Measurements",
+              "course_code": 103401,
+              "credits": 3,
+              "type": "Theory",
+              "syllabus": {
+                "courseObjectives": [],
+                "learningOutcomes": [
+                  "Work on various instruments and equipment used for the measurement of various electrical engineering parameters.",
+                  "Analyze and solve a variety of problems and issues in the vast field of electrical measurements.",
+                  "Think in terms of innovative ideas to improve existing technology in the field of measurements in terms of accuracy, cost, durability, and user-friendliness."
+                ],
+                "courseContent": "## **Module 1: Measurement and Error (8 Hours)**  \nMeasurement and Error: Definition, Accuracy and Precision, Significant Figures, Types of Errors. Standards of Measurement: Classification of Standards, Electrical Standards, IEEE Standards. Types of measuring instruments: Ammeter and Voltmeter: Derivation for Deflecting Torque of PMMC, MI (attraction and repulsion types), Electro Dynamometer and Induction type Ammeters and Voltmeters. Energy meters and wattmeter: Construction, Theory, and Principle of operation of Electro-Dynamometer and Induction type wattmeter, compensation, creep, error, testing, Single Phase and Polyphase Induction type Watt-hour meters. Frequency Meters: Vibrating reed type, electrical resonance type, Power Factor Meters.\n\n## **Module 2: Measurement of Resistance, Inductance, and Capacitance (8 Hours)**  \nResistance: Measurement of Low Resistance by Kelvin’s Double Bridge, Measurement of Medium Resistance, Measurement of High Resistance, Measurement of Resistance of Insulating Materials, Portable Resistance Testing set (Megohmmeter), Measurement of Insulation Resistance when Power is ON, Measurement of Resistance of Earth Connections. Inductance: Measurement of Self-Inductance by Ammeter and Voltmeter, and AC Bridges (Maxwell’s, Hay’s, & Anderson Bridge), Measurement of Mutual Inductance by Felici’s Method, and as Self Inductance. Capacitance: Measurement of Capacitance by Ammeter and Voltmeter, and AC Bridges (Owen’s, Schering’s Bridge), Screening of Bridge Components and Wagner Earthing Device.\n\n## **Module 3: Galvanometer and Potentiometer (8 Hours)**  \nGalvanometer (5 Hours): Construction, Theory, and Principle of operation of D’Arsonval, Vibration (Moving Magnet & Moving Coil types), and Ballistic Galvanometer, Influence of Resistance on Damping, Logarithmic decrement, Calibration of Galvanometers, Galvanometer Constants, Measurement of Flux and Magnetic Field using Galvanometers. Potentiometer: Construction, Theory, and Principle of operation of DC Potentiometers (Crompton, Vernier, Constant Resistance, & Deflection Potentiometer), and AC Potentiometers (Drysdale-Tinsley & Gall-Tinsley Potentiometer).\n\n## **Module 4: Current Transformers, Potential Transformers, and Oscilloscope (8 Hours)**  \nCurrent Transformer and Potential Transformer (3 Hours): Construction, Theory, Characteristics, and Testing of CTs and PTs. Electronic Instruments for Measuring Basic Parameters (2 Hours): Amplified DC Meters, AC Voltmeters using Rectifiers. True RMS Voltmeter, Considerations for choosing an Analog Voltmeter, Digital Voltmeters (Block Diagrams only), Q-meter. Oscilloscope (3 Hours): Block Diagrams, Delay Line, Multiple Trace, Oscilloscope Probes, Oscilloscope Techniques, Introduction to Analog and Digital Storage Oscilloscopes, Measurement of Frequency, Phase Angle, and Time Delay using Oscilloscope.\n",
+                "referenceBooks": [
+                  "Electrical Measurements and Measuring Instruments – Golding & Widdis – 5th Edition, Reem Publication.",
+                  "Modern Electronic Instrumentation and Measurement Techniques – Helfrick & Cooper – Pearson Education.",
+                  "A Course in Electrical and Electronic Measurements and Instrumentation – A K Sawhney – Dhanpat Rai & Co.",
+                  "Electronic Instrumentation – H C Kalsi – 2nd Edition, Tata McGraw Hill.",
+                  "Electronic Measurement and Instrumentation – Oliver & Cage – Tata McGraw Hill."
+                ],
+                "assessmentMethods": []
+              }
+            },
+            {
+              "name": "Electrical Machines- 2",
+              "course_code": 103402,
+              "credits": 3,
+              "type": "Theory",
+              "syllabus": {
+                "courseObjectives": [],
+                "learningOutcomes": [
+                  "Understand the concepts of rotating magnetic fields.",
+                  "Understand the operation of AC machines.",
+                  "Analyse performance characteristics of AC machines."
+                ],
+                "courseContent": "## **Module 1: Measurement and Error (8 Hours)**\nMeasurement and Error: Definition, Accuracy and Precision, Significant Figures, Types of Errors. Standards of Measurement: Classification of Standards, Electrical Standards, IEEE Standards. Types of measuring instruments: Ammeter and Voltmeter: Derivation for Deflecting Torque of PMMC, MI (attraction and repulsion types), Electro Dynamometer and Induction type Ammeters and Voltmeters. Energy meters and wattmeter: Construction, Theory, and Principle of operation of Electro-Dynamometer and Induction type wattmeter, compensation, creep, error, testing, Single Phase and Polyphase Induction type Watt-hour meters. Frequency Meters: Vibrating reed type, electrical resonance type, Power Factor Meters.\n\n## **Module 2: Measurement of Resistance, Inductance, and Capacitance (8 Hours)**\nResistance: Measurement of Low Resistance by Kelvin’s Double Bridge, Measurement of Medium Resistance, Measurement of High Resistance, Measurement of Resistance of Insulating Materials, Portable Resistance Testing set (Megohmmeter), Measurement of Insulation Resistance when Power is ON, Measurement of Resistance of Earth Connections. Inductance: Measurement of Self-Inductance by Ammeter and Voltmeter, and AC Bridges (Maxwell’s, Hay’s, & Anderson Bridge), Measurement of Mutual Inductance by Felici’s Method, and as Self Inductance. Capacitance: Measurement of Capacitance by Ammeter and Voltmeter, and AC Bridges (Owen’s, Schering’s Bridge), Screening of Bridge Components and Wagner Earthing Device.\n\n## **Module 3: Galvanometer and Potentiometer (8 Hours)**\nGalvanometer (5 Hours): Construction, Theory, and Principle of operation of D’Arsonval, Vibration (Moving Magnet & Moving Coil types), and Ballistic Galvanometer, Influence of Resistance on Damping, Logarithmic decrement, Calibration of Galvanometers, Galvanometer Constants, Measurement of Flux and Magnetic Field using Galvanometers. Potentiometer: Construction, Theory, and Principle of operation of DC Potentiometers (Crompton, Vernier, Constant Resistance, & Deflection Potentiometer), and AC Potentiometers (Drysdale-Tinsley & Gall-Tinsley Potentiometer).\n\n## **Module 4: Current Transformers, Potential Transformers, and Oscilloscope (8 Hours)**\nCurrent Transformer and Potential Transformer (3 Hours): Construction, Theory, Characteristics, and Testing of CTs and PTs. Electronic Instruments for Measuring Basic Parameters (2 Hours): Amplified DC Meters, AC Voltmeters using Rectifiers. True RMS Voltmeter, Considerations for choosing an Analog Voltmeter, Digital Voltmeters (Block Diagrams only), Q-meter. Oscilloscope (3 Hours): Block Diagrams, Delay Line, Multiple Trace, Oscilloscope Probes, Oscilloscope Techniques, Introduction to Analog and Digital Storage Oscilloscopes, Measurement of Frequency, Phase Angle, and Time Delay using Oscilloscope.",
+                "referenceBooks": [
+                  "A. E. Fitzgerald and C. Kingsley, 'Electric Machinery', McGraw Hill Education, 2013.",
+                  "M. G. Say, 'Performance and design of AC machines', CBS Publishers, 2002.",
+                  "P. S. Bimbhra, 'Electrical Machinery', Khanna Publishers, 2011.",
+                  "I. J. Nagrath and D. P. Kothari, 'Electric Machines', McGraw Hill Education, 2010.",
+                  "A. S. Langsdorf, 'Alternating current machines', McGraw Hill Education, 1984.",
+                  "P. C. Sen, 'Principles of Electric Machines and Power Electronics', John Wiley & Sons, 2007."
+                ],
+                "assessmentMethods": []
+              }
+            },
+            {
+              "name": "Mathematics - 3 (Probability and Statstics)",
+              "course_code": 103403,
+              "credits": 4,
+              "type": "Theory",
+              "syllabus": {
+                "courseObjectives": [],
+                "learningOutcomes": [
+                  "Understand the fundamental concepts of probability, including probability spaces, conditional probability, and independence.",
+                  "Analyze discrete and continuous probability distributions and their properties.",
+                  "Apply concepts of bivariate distributions, including sums and quotients, conditional densities, and Bayes' rule.",
+                  "Calculate measures of central tendency, moments, skewness, kurtosis, and statistical parameters for different probability distributions.",
+                  "Perform curve fitting using the method of least squares and conduct hypothesis testing for large and small samples.",
+                  "Use statistical tests such as chi-square for goodness of fit and independence of attributes."
+                ],
+                "courseContent": "## **Module 1: Basic Probability (12 hours)**\nProbability spaces, conditional probability, independence; Discrete random variables, Independent random variables, the multinomial distribution, Poisson approximation to the binomial distribution, infinite sequences of Bernoulli trials, sums of independent random variables; Expectation of Discrete Random Variables, Moments, Variance of a sum, Correlation coefficient, Chebyshev’s Inequality.\n\n## **Module 2: Continuous Probability Distributions (4 hours)**\nContinuous random variables and their properties, distribution functions and densities, normal, exponential and gamma densities.\n\n## **Module 3: Bivariate Distributions (4 hours)**\nBivariate distributions and their properties, distribution of sums and quotients, conditional densities, Bayes' rule.\n\n## **Module 4: Basic Statistics (8 hours)**\nMeasures of Central tendency: Moments, skewness and Kurtosis - Probability distributions: Binomial, Poisson and Normal - evaluation of statistical parameters for these three distributions, Correlation and regression – Rank correlation.\n\n## **Module 5: Applied Statistics (8 hours)**\nCurve fitting by the method of least squares- fitting of straight lines, second degree parabolas and more general curves. Test of significance: Large sample test for single proportion, difference of proportions, single mean, difference of means, and difference of standard deviations.\n\n## **Module 6: Small samples (4 hours)**\nTest for single mean, difference of means and correlation coefficients, test for ratio of variances - Chisquare test for goodness of fit and independence of attributes.",
+                "referenceBooks": [
+                  "E. Kreyszig, 'Advanced Engineering Mathematics', John Wiley & Sons, 2006.",
+                  "P. G. Hoel, S. C. Port and C. J. Stone, 'Introduction to Probability Theory', Universal Book Stall, 2003.",
+                  "S. Ross, 'A First Course in Probability', Pearson Education India, 2002.",
+                  "W. Feller, 'An Introduction to Probability Theory and its Applications', Vol. 1, Wiley, 1968.",
+                  "N. P. Bali and M. Goyal, 'A Textbook of Engineering Mathematics', Laxmi Publications, 2010.",
+                  "B. S. Grewal, 'Higher Engineering Mathematics', Khanna Publishers, 2000.",
+                  "T. Veerarajan, 'Engineering Mathematics', Tata McGraw-Hill, New Delhi, 2010."
+                ],
+                "assessmentMethods": []
+              }
+            },
+            {
+              "name": "Signals and Systems",
+              "course_code": 103404,
+              "credits": 3,
+              "type": "Theory",
+              "syllabus": {
+                "courseObjectives": [],
+                "learningOutcomes": [
+                  "Understand the concepts of continuous time and discrete time systems.",
+                  "Analyze systems in the complex frequency domain.",
+                  "Understand the sampling theorem and its implications."
+                ],
+                "courseContent": "## **Module 1: Introduction to Signals and Systems (3 hours)**\nSignals and systems as seen in everyday life, and in various branches of engineering and science. Signal properties: periodicity, absolute integrability, determinism, and stochastic character. Some special signals of importance: the unit step, the unit impulse, the sinusoid, the complex exponential, some special time-limited signals; continuous and discrete-time signals, continuous and discrete amplitude signals. System properties: linearity: additivity and homogeneity, shift invariance, causality, stability, realizability. Examples.\n\n## **Module 2: Behavior of Continuous and Discrete-time LTI Systems (8 hours)**\nImpulse response and step response, convolution, input-output behavior with periodic convergent inputs, cascade interconnections. Characterization of causality and stability of LTI systems. System representation through differential equations and difference equations. State-space representation of systems. State-space analysis, multi-input, multi-output representation. State transition matrix and its role. Periodic inputs to an LTI system, the notion of a frequency response, and its relation to the impulse response.\n\n## **Module 3: Fourier, Laplace, and z-Transforms (10 hours)**\nFourier series representation of periodic signals, waveform symmetries, calculation of Fourier coefficients. Fourier Transform, convolution/multiplication, and their effect in the frequency domain, magnitude and phase response, Fourier domain duality. The Discrete-Time Fourier Transform (DTFT) and the Discrete Fourier Transform (DFT). Parseval's theorem. Review of the Laplace Transform for continuous time signals and systems, system functions, poles, and zeros of system functions and signals, Laplace domain analysis, solution to differential equations and system behavior. The z-Transform for discrete-time signals and systems, system functions, poles, and zeros of systems and sequences, z-domain analysis.\n\n## **Module 4: Sampling and Reconstruction (4 hours)**\nThe Sampling Theorem and its implications. Spectra of sampled signals. Reconstruction: ideal interpolator, zero-order hold, first-order hold. Aliasing and its effects. Relation between continuous and discrete-time systems. Introduction to the applications of signal and system theory: modulation for communication, filtering, feedback control systems.",
+                "referenceBooks": [
+                  "A. V. Oppenheim, A. S. Willsky, S. H. Nawab, 'Signals and Systems', Prentice Hall India, 1997.",
+                  "J. G. Proakis, D. G. Manolakis, 'Digital Signal Processing: Principles, Algorithms, and Applications', Pearson, 2006.",
+                  "H. P. Hsu, 'Signals and Systems', Schaum’s Series, McGraw Hill Education, 2010.",
+                  "S. Haykin, B. V. Veen, 'Signals and Systems', John Wiley and Sons, 2007.",
+                  "A. V. Oppenheim, R. W. Schafer, 'Discrete-Time Signal Processing', Prentice Hall, 2009.",
+                  "M. J. Robert, 'Fundamentals of Signals and Systems', McGraw Hill Education, 2007.",
+                  "B. P. Lathi, 'Linear Systems and Signals', Oxford University Press, 2009."
+                ],
+                "assessmentMethods": []
+              }
+            }
+          ]
+        }
       ]
-  
-}
+    }
   ],
   "metadata": {
     "academicYear": "2024-2025",
