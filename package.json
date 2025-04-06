@@ -1,16 +1,34 @@
 {
-  "name": "beu-data",
-  "version": "1.0.0",
-  "description": "This repository contains the data and potentially the code for the Engineering Guru application, a comprehensive course catalog for engineering students.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "server",
+  "version": "1.0.5",
+  "description": "server to serve the syllabus",
+  "keywords": [
+    "nodejs",
+    "mongodb",
+    "express"
+  ],
+  "homepage": "https://github.com/hasanraiyan/beu-data#readme",
+  "bugs": {
+    "url": "https://github.com/hasanraiyan/beu-data/issues"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hasanraiyan/beu-data.git"
+  },
   "license": "ISC",
+  "author": "Raiyan Hasan",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
   "dependencies": {
-    "express": "^4.21.2"
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2",
+    "prettier": "^3.5.3"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
