@@ -1,6 +1,7 @@
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
+const fetch = require('node-fetch'); // For self-ping
 
 const app = express();
 const port = process.env.PORT || 3000;
@@ -23,7 +24,6 @@ try {
 const cache = {};
 const CACHE_DURATION_MS = 5 * 60 * 1000; // Cache for 5 minutes
 
-// Middleware to clear cache periodically (very basic implementation)
 // A better approach might involve invalidating cache on data change or using TTL caches.
 setInterval(() => {
     console.log('Clearing in-memory cache...');
@@ -35,6 +35,11 @@ setInterval(() => {
 // --- Basic Route ---
 app.get('/', (req, res) => {
   res.send('Engineering Guru API Server is running!');
+});
+
+// --- Health Check Route ---
+app.get('/health', (req, res) => {
+  res.status(200).json({ status: 'ok', uptime: process.uptime(), timestamp: Date.now() });
 });
 
 // --- API Endpoints ---
@@ -177,3 +182,27 @@ app.listen(port, () => {
 });
 
 module.exports = app; // Export for potential testing
+
+// --- Self-Ping Mechanism ---
+const SELF_URL = 'https://beu-data.onrender.com/health';
+function scheduleSelfPing() {
+  // Random interval between 10 and 15 minutes (in ms)
+  const min = 10 * 60 * 1000;
+  const max = 15 * 60 * 1000;
+  const interval = Math.floor(Math.random() * (max - min + 1)) + min;
+
+  setTimeout(async () => {
+    try {
+      const res = await fetch(SELF_URL);
+      if (res.ok) {
+        console.log(`[Self-Ping] Success at ${new Date().toISOString()}`);
+      } else {
+        console.warn(`[Self-Ping] Non-200 response: ${res.status}`);
+      }
+    } catch (err) {
+      console.error(`[Self-Ping] Error:`, err);
+    }
+    scheduleSelfPing(); // Schedule next ping
+  }, interval);
+}
+scheduleSelfPing();
