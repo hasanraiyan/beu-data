@@ -184,7 +184,7 @@ app.listen(port, () => {
 module.exports = app; // Export for potential testing
 
 // --- Self-Ping Mechanism ---
-const SELF_URL = 'https://beu-data.onrender.com/health';
+const SELF_URL = 'https://d-server-78cu.onrender.com/health';
 function scheduleSelfPing() {
   // Random interval between 10 and 15 minutes (in ms)
   const min = 10 * 60 * 1000;
